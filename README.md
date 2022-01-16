@@ -1,6 +1,6 @@
 # COSC_4P02_Project
 
-TEAM MEMBERS 
+TEAM MEMBERS <br>
 Aamir Dhanani - 6463012 
 Alex Freer - 6452551
 Diego Vergara - 6583819 
