@@ -1,4 +1,4 @@
-package com.P02.Backend;
+package com.Chatbot.Backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
