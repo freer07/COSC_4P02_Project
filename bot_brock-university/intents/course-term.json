@@ -1,0 +1,10 @@
+{
+  "name": "course-term",
+  "utterances": {
+    "en": []
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

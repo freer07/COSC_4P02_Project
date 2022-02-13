@@ -1,0 +1,10 @@
+{
+  "name": "program-description",
+  "utterances": {
+    "en": []
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

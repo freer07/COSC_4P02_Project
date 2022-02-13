@@ -1,0 +1,96 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "Main",
+  "nodes": [
+    {
+      "id": "03a9a384d4",
+      "name": "sayDescription",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2ARQI7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5a6f2817d4",
+      "name": "getDescription",
+      "next": [
+        {
+          "condition": "true",
+          "node": "sayDescription"
+        }
+      ],
+      "onEnter": [
+        "getCourseDescription {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "23df5ece18",
+      "name": "Main",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === \"course-description\"",
+          "conditionType": "raw",
+          "node": "getDescription"
+        },
+        {
+          "condition": "event.nlu.intent.name === \"course-professor\"",
+          "conditionType": "raw",
+          "node": "getProfessors"
+        },
+        {
+          "condition": "event.nlu.intent.name !== \"course-details\"",
+          "conditionType": "raw",
+          "node": "END"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7494afcd1d",
+      "name": "getProfessors",
+      "next": [
+        {
+          "condition": "true",
+          "node": "sayProfessors"
+        }
+      ],
+      "onEnter": [
+        "getProfessorByCourse {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "538c3beb82",
+      "name": "sayProfessors",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2ARQI7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

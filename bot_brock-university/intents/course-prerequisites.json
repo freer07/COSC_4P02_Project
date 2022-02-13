@@ -1,0 +1,10 @@
+{
+  "name": "course-prerequisites",
+  "utterances": {
+    "en": []
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

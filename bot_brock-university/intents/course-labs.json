@@ -1,0 +1,10 @@
+{
+  "name": "course-labs",
+  "utterances": {
+    "en": []
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}
