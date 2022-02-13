@@ -1,8 +1,8 @@
   const { Client } = require('pg')
   /**
-   * Gets course description
-   * @title Get course description
-   * @category Course Description
+   * Grabs the prereqs for a given course.
+   * @title Get the prereqs.
+   * @category Course Prerequisites
    * @author Mike Tchoupiak
    */
   const myAction = async () => {
@@ -30,12 +30,14 @@
           if (Object.keys(res.rows).length === 0) {
             fullString = 'We could not find details regarding this course.'
           } else {
-            fullString = fullString + res.rows[0].title
-
-            if (res.rows[0].description == '') {
-              fullString = fullString + '\nNo description found.'
+            fullString = courseCode + ', ' + res.rows[0].title + ', '
+            if (res.rows[0].prereq == '') {
+              fullString = fullString + 'has no prerequisites.'
             } else {
-              fullString = fullString + '\n' + res.rows[0].description
+              fullString =
+                fullString +
+                'has the prerequistie(s) ' +
+                res.rows[0].prereq.replace('Prerequisites: Prerequisite(s): ', '')
             }
           }
           session.details = fullString

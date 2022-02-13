@@ -6,7 +6,6 @@
    * @author Mike Tchoupiak
    */
   const myAction = async () => {
-    
     const courseCode = event.nlu.slots.courseName.value.toUpperCase()
     var fullString = courseCode + ', '
 
@@ -28,38 +27,47 @@
       await client
         .query(text, values)
         .then(res => {
-          var professorList = []
-          fullString = fullString + res.rows[0].title + ', is run by '
+          if (Object.keys(res.rows).length === 0) {
+            session.details = 'We could not find details regarding this course.'
+          } else {
+            var professorList = []
 
-          res.rows.forEach(course => {
-            bp.logger.info(course.instructor)
-            const name = course.instructor.replace('Instructor: ', '')
+            fullString = fullString + res.rows[0].title + ', is run by '
 
-            if (!professorList.includes(name)) {
-              professorList.push(name)
-              bp.logger.info(name)
-            }
-          })
+            res.rows.forEach(course => {
+              const name = course.instructor.replace('Instructor: ', '')
 
-          var tmp = 0
-          professorList.forEach(item => {
-            if (tmp == 0) {
-              fullString = fullString + item
-              tmp++
-            } else {
-              fullString = fullString + ' and ' + item
-            }
-          })
-          session.details = fullString
+              if (!professorList.includes(name)) {
+                professorList.push(name)
+              }
+            })
+
+            var tmp = 0
+            professorList.forEach(item => {
+              if (tmp == 0) {
+                fullString = fullString + item
+                tmp++
+              } else {
+                fullString = fullString + ' and ' + item
+              }
+            })
+            session.details = fullString
+            
+          }
         })
-        .catch(e => console.error(e.stack))
+        .catch(e => {
+          bp.logger.error(e)
+          session.details = 'Looks like we having a network issue. Try again.'
+        })
+
+      await client.end()
     } catch (error) {
-      if (error.response && error.response.status === 401) {
-        throw new Error('Request failed with status code 401. Have you set up your OpenWeather API Key properly?')
-      }
+      bp.logger.error(error)
+      session.details = 'Looks like we having a network issue. Try again.'
       throw error
     }
+
+    
   }
-  
 
   return myAction()

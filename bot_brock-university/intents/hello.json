@@ -1,0 +1,26 @@
+{
+  "name": "hello",
+  "utterances": {
+    "en": [
+      "hi",
+      "hello",
+      "I need help",
+      "can you help",
+      "hey",
+      "bonjour",
+      "hola",
+      "hi, I need help",
+      "hey bot",
+      "hello brock",
+      "hi there",
+      "hello there",
+      "howdy",
+      "yo",
+      "yo bro"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

@@ -6,7 +6,9 @@
     {
       "id": "3rr0r",
       "name": "entry",
-      "onEnter": [],
+      "onEnter": [
+        "say #!builtin_text-R7ccHU"
+      ],
       "onReceive": null,
       "next": []
     }

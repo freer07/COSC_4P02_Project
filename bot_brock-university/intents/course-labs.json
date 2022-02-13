@@ -1,9 +1,41 @@
 {
   "name": "course-labs",
   "utterances": {
-    "en": []
+    "en": [
+      "Are the lab options for [COSC 4P02](courseName).",
+      "labs for [CHEM 2P90](courseName)",
+      "does [MATH 1p66](courseName) have labs",
+      "labs for [biol 2f47](courseName)",
+      "labs for [entr 2p91](courseName)",
+      "Are there labs for [COSC 3p90](courseName)",
+      "does [chem 1F90](courseName) have labs",
+      "what days are labs for [OBHR 2M87](courseName) on.",
+      "does [actg 3N82](courseName) have labs.",
+      "Labs for [MATH 1P67](courseName)",
+      "Labs for [MATH 1P66](courseName)",
+      "labs [LING 2p77](courseName)",
+      "labs for [ITIS 1p97](courseName)",
+      "labs for [ADED 1p31](courseName)",
+      "are there labs for [bchm on05](courseName)",
+      "when are labs for [apco 1p50](courseName)",
+      "[btgd 3p65](courseName) labs",
+      "[chem 1p91](courseName) labs days",
+      "I need to know when the labs are for [CHEM 2P20](courseName)?",
+      "labs for [cosc 1p03](courseName)",
+      "labs for [COSC 1p02](courseName)",
+      "what are the labs for [COSC 1P03](courseName)"
+    ]
   },
-  "slots": [],
+  "slots": [
+    {
+      "id": "Me8TePEpmLMvnwEdR6wI8",
+      "name": "courseName",
+      "entities": [
+        "courseName"
+      ],
+      "color": 1
+    }
+  ],
   "contexts": [
     "global"
   ]

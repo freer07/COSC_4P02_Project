@@ -1,8 +1,9 @@
+
   const { Client } = require('pg')
   /**
-   * Gets course description
-   * @title Get course description
-   * @category Course Description
+   * Gets the term of the course.
+   * @title Get term of course.
+   * @category Term Course
    * @author Mike Tchoupiak
    */
   const myAction = async () => {
@@ -21,7 +22,7 @@
       client.connect()
 
       const text =
-        'SELECT * FROM COURSES WHERE CODE LIKE $1 AND (TYPE LIKE $2 OR TYPE LIKE $3 OR TYPE LIKE $4 OR TYPE LIKE $5 OR TYPE LIKE $6 OR TYPE LIKE $7 OR TYPE LIKE $8) LIMIT 1 '
+        'SELECT title, full_duration FROM COURSES top WHERE CODE LIKE $1 AND (TYPE LIKE $2 OR TYPE LIKE $3 OR TYPE LIKE $4 OR TYPE LIKE $5 OR TYPE LIKE $6 OR TYPE LIKE $7 OR TYPE LIKE $8) GROUP BY title, full_duration'
       const values = [courseCode, 'LEC', 'ONM', 'FLD', 'LEC2', 'ASY', 'SYN', 'BLD']
 
       await client
@@ -30,13 +31,11 @@
           if (Object.keys(res.rows).length === 0) {
             fullString = 'We could not find details regarding this course.'
           } else {
-            fullString = fullString + res.rows[0].title
+            fullString = courseCode + ', ' + res.rows[0].title + ', ' + 'run the following terms: \n'
 
-            if (res.rows[0].description == '') {
-              fullString = fullString + '\nNo description found.'
-            } else {
-              fullString = fullString + '\n' + res.rows[0].description
-            }
+            res.rows.forEach(item => {
+              fullString = fullString + item.full_duration.replace('Duration: ', '') + '\n'
+            })
           }
           session.details = fullString
         })
