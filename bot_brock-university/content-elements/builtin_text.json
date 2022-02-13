@@ -1,0 +1,76 @@
+[
+  {
+    "id": "builtin_text-L4GcJ0",
+    "formData": {
+      "text$en": "Hello!",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-09-05T18:56:38.109Z",
+    "modifiedOn": "2019-09-05T18:56:38.109Z"
+  },
+  {
+    "id": "builtin_text-2ARQI7",
+    "formData": {
+      "text$en": "{{event.state.temp.details}} ",
+      "typing$en": true,
+      "markdown$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-09-05T20:09:19.555Z",
+    "modifiedOn": "2022-02-13T02:28:38.386Z"
+  },
+  {
+    "id": "builtin_text-tC53zN",
+    "formData": {
+      "text$en": "Hello! How can I help you today?",
+      "typing$en": true,
+      "markdown$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-09-05T20:21:33.040Z",
+    "modifiedOn": "2022-02-13T02:01:29.890Z"
+  },
+  {
+    "id": "builtin_text-L93Kxj",
+    "formData": {
+      "text$en": "What city are you looking for? \nFor example, type in \"montreal\" or \"london,uk\"",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-09-05T20:22:33.389Z",
+    "modifiedOn": "2019-09-05T20:22:46.054Z"
+  },
+  {
+    "id": "builtin_text-0LD-Ry",
+    "formData": {
+      "text$en": "Enter another city name to continue",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-09-05T21:10:00.216Z",
+    "modifiedOn": "2019-09-05T21:10:00.216Z"
+  },
+  {
+    "id": "builtin_text-lz9XY_",
+    "formData": {
+      "text$en": "{{event.nlu.slots.courseName.value}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-13T02:07:55.133Z",
+    "modifiedOn": "2022-02-13T02:07:55.133Z"
+  },
+  {
+    "id": "builtin_text-R7ccHU",
+    "formData": {
+      "text$en": "Sorry, we don't have that information.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-13T03:03:41.494Z",
+    "modifiedOn": "2022-02-13T03:03:41.494Z"
+  }
+]

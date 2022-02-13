@@ -1,0 +1,30 @@
+{
+  "name": "course-details",
+  "utterances": {
+    "en": [
+      "What is [COSC 1P02](courseName) about?",
+      "Details regarding [ECON 2P05](courseName)",
+      "What is [MATH 1P66](courseName)?",
+      "I'm looking for information about [COSC 1P02](courseName)",
+      "What is [BIOL 1P78](courseName) about?",
+      "Is [ENTR 2P51](courseName) hard?",
+      "Details regarding [CHEM 1Y73](courseName).",
+      "What about [MATH 1p67](courseName)?",
+      "I need help learning about [Math 1P05](courseName)?",
+      "Details about [COSC 2B70](courseName)."
+    ]
+  },
+  "slots": [
+    {
+      "id": "NsZP6_Zky6iZWirlgqAJD",
+      "name": "courseName",
+      "entities": [
+        "courseName"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

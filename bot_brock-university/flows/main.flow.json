@@ -1,0 +1,67 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "Slot-eb86c4",
+  "nodes": [
+    {
+      "id": "03a9a384d4",
+      "name": "SayWeatherNode",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2ARQI7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5a6f2817d4",
+      "name": "GetWeatherNode",
+      "next": [
+        {
+          "condition": "true",
+          "node": "SayWeatherNode"
+        }
+      ],
+      "onEnter": [
+        "getCourseDescription {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-eb86c4",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-eb86c4",
+      "flow": "skills/Slot-eb86c4.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "GetWeatherNode"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": ""
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}
