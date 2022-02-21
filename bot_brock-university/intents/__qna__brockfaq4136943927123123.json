@@ -1,0 +1,36 @@
+{
+  "name": "__qna__brockfaq4136943927123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Economics",
+      "General Information",
+      "Co-op Program",
+      "Economics and Labour Studies-George Brown College",
+      "Program Notes",
+      "Honours Program",
+      "Economics",
+      "Applied Economic Analysis Co-op (Honours)",
+      "Economics Co-op (Honours only)",
+      "Business Economics (Honours only)",
+      "International Political Economy (Honours only)",
+      "BA with Major",
+      "Pass Program",
+      "Combined Major Program",
+      "Economics and Business (Honours only)",
+      "Economics and Computer Science (Honours only)",
+      "Economics and Geography",
+      "Economics and Labour Studies",
+      "Economics and Mathematics (Honours only)",
+      "Minor in Economics",
+      "Brock/Colleges Articulation Agreement",
+      "Economics and Labour Studies-George Brown College",
+      "Course Descriptions",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

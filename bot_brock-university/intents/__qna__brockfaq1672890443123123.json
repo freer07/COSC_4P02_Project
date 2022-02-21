@@ -1,0 +1,19 @@
+{
+  "name": "__qna__brockfaq1672890443123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Education - Concurrent BSc Integrated Studies (Honours)/BEd (Junior/Intermediate)",
+      "General Information",
+      "Ontario College of Teachers Criminal Records Screening Policy",
+      "Admissions",
+      "Program Notes",
+      "Honours Program",
+      "Description of Courses"
+    ]
+  },
+  "slots": []
+}

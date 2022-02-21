@@ -1,0 +1,20 @@
+{
+  "name": "__qna__brockfaq5511070834123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Policing and Criminal Justice",
+      "General Information",
+      "Program Notes",
+      "Honours Program",
+      "Political Science",
+      "BA with Major Program",
+      "Psychology",
+      "Sociology"
+    ]
+  },
+  "slots": []
+}

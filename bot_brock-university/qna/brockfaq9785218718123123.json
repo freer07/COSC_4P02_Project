@@ -1,0 +1,28 @@
+{
+  "id": "brockfaq9785218718123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/csbu.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Computing and Business",
+        "General Information",
+        "Co-op Program",
+        "Program Note",
+        "Honours Program",
+        "Computing and Business Co-op",
+        "Description of Courses"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

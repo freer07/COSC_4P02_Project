@@ -1,0 +1,29 @@
+{
+  "id": "brockfaq6082753506123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/copf.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Communication, Popular Culture and Film",
+        "General Information",
+        "Communication Studies",
+        "Film Studies",
+        "Popular Culture Studies",
+        "Brock/Colleges Articulation Agreement Program",
+        "Description of Courses",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

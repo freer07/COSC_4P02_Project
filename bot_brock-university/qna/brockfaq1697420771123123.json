@@ -1,0 +1,29 @@
+{
+  "id": "brockfaq1697420771123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/crmg.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Critical Criminology",
+        "General Information",
+        "Program Notes",
+        "Group Courses",
+        "Honours Program",
+        "Minor Program",
+        "Course Descriptions ",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

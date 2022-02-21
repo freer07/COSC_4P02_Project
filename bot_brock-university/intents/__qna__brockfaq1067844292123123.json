@@ -1,0 +1,19 @@
+{
+  "name": "__qna__brockfaq1067844292123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Education - Concurrent BPhEd (Honours)/BEd (Intermediate/Senior)",
+      "General Information",
+      "Ontario College of Teachers Criminal Records Screening Policy",
+      "Admissions",
+      "Program Notes",
+      "Honours Program",
+      "Description of Courses"
+    ]
+  },
+  "slots": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "brockfaq575727407123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/math.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Mathematics and Statistics",
+        "General Information",
+        "Accelerated Mathematics Studies Stream",
+        "Mathematics Co-op and Statistics Co-op",
+        "Mathematics and Computer Science Co-op Program",
+        "Program Notes",
+        "Mathematics and Statistics Honours Program",
+        "Accelerated Mathematics Studies Stream",
+        "Mathematics Co-op (Honours only)",
+        "Statistics Co-op (Honours only)",
+        "Mathematics Pass Program",
+        "Combined Major Program",
+        "Mathematics and Computer Science Co-op (Honours only)",
+        "Programs and Courses for Future Teachers",
+        "Elementary",
+        "Secondary",
+        "Concurrent BSc/BEd",
+        "Concentration Program",
+        "Concentration in Applied Mathematics",
+        "Concentration in Mathematics Education",
+        "Concentration in Mathematics Integrated with Computers and Applications (MICA)",
+        "Concentration in Pure Mathematics",
+        "Concentration in Statistics",
+        "Minor Program",
+        "Minor in Mathematics",
+        "Minor in Statistics",
+        "Minor Programs for Teachers",
+        "Course Descriptions",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

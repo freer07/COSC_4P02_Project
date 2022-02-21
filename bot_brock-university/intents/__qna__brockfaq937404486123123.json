@@ -1,0 +1,24 @@
+{
+  "name": "__qna__brockfaq937404486123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Education - Adult Education",
+      "General Information",
+      "Admissions",
+      "Program Notes",
+      "Program A",
+      "Program B",
+      "Certificate and Micro-certificate Programs",
+      "Certificate in Adult Education",
+      "Micro-certificate in Post-Secondary Education",
+      "Minor in Adult Education",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

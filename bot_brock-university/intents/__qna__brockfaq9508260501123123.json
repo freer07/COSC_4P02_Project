@@ -1,0 +1,23 @@
+{
+  "name": "__qna__brockfaq9508260501123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Kinesiology",
+      "General Information",
+      "Program Notes",
+      "Science Credit Courses",
+      "Bachelor of Kinesiology Program",
+      "Bachelor of Kinesiology Co-op Program",
+      "Bachelor of Science in Kinesiology Program",
+      "Minor Program",
+      "Minor in Gerontology",
+      "Course Descriptions",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

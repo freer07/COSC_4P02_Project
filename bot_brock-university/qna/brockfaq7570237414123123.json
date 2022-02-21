@@ -1,0 +1,27 @@
+{
+  "id": "brockfaq7570237414123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/biom.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Biomedical Sciences",
+        "General Information",
+        "Program Notes",
+        "Honours Program",
+        "Description of Courses",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

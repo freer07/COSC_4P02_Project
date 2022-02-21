@@ -1,0 +1,23 @@
+{
+  "name": "__qna__brockfaq3704484359123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Interactive Arts and Science",
+      "General Information",
+      "Program Notes",
+      "Honours Program",
+      "Pass Program",
+      "Combined Major Program",
+      "Concentration Program",
+      "Certificate in Digital Media (5.0 credits)",
+      "Minor Program",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "brockfaq1223736103123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/ecbs.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Education - Concurrent BSc (Honours)/BEd (Intermediate/Senior)",
+        "General Information",
+        "Ontario College of Teachers Criminal Records Screening Policy",
+        "Admissions",
+        "Program Notes",
+        "Honours Program",
+        "Biological Sciences",
+        "Chemistry",
+        "Chemistry (Physics as a Second Teachable Subject)",
+        "Geography",
+        "Mathematics",
+        "Physics",
+        "Physics (Mathematics as Second Teachable Subject)",
+        "Physics (Chemistry as a Second Teachable Subject)",
+        "Description of Courses"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

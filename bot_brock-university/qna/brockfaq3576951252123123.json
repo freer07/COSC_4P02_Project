@@ -1,0 +1,47 @@
+{
+  "id": "brockfaq3576951252123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/apli.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Applied Linguistics",
+        "General Information",
+        "Applied Linguistics",
+        "Applied Linguistics/Teaching English as a Second Language",
+        "Speech Language and Hearing Sciences",
+        "Program Notes",
+        "Honours Program",
+        "Applied Linguistics/Teaching English as a Second Language (Honours only)",
+        "Speech Language and Hearing Sciences",
+        "Concentration in Hearing Sciences",
+        "Concentration in Speech Language Sciences",
+        "BA with Major in Speech Language and Hearing Sciences",
+        "Pass Program",
+        "Applied Linguistics",
+        "Combined Major Program",
+        "Applied Linguistics",
+        "Speech Language and Hearing Sciences",
+        "Applied Linguistics and Child and Youth Studies",
+        "Applied Linguistics and English Language and Literature",
+        "Certificate Program",
+        "Certificate in Speech Language and Hearing Sciences",
+        "Certificate in Teaching English as a Second/Foreign Language",
+        "Minor in Applied Linguistics",
+        "Master of Arts (MA) in Applied Linguistics with a Specialization in Teaching English as a Subsequent/Foreign Language",
+        "Course Descriptions",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

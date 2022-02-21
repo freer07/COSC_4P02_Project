@@ -1,0 +1,37 @@
+{
+  "id": "brockfaq7025880179123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/wise.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Women's and Gender Studies",
+        "General Information",
+        "Program Notes",
+        "Honours Program",
+        "BA with Major Program",
+        "Pass Program",
+        "Combined Major Program",
+        "Honours",
+        "Women's and Gender Studies and Sociology BA with Major",
+        "Pass",
+        "Certificate and Micro-certificate Programs",
+        "Certificate in Women's and Gender Studies",
+        "Micro-certificate in Gender Justice and the Art of Activism",
+        "Minor Program",
+        "Description of Courses",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

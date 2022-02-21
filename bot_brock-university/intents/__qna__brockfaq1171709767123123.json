@@ -1,0 +1,23 @@
+{
+  "name": "__qna__brockfaq1171709767123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "French Studies",
+      "General Information",
+      "Program Notes",
+      "Honours Program",
+      "Concurrent BA (Honours)/BEd",
+      "Pass Program",
+      "Combined Major Program",
+      "Certificate in Business French and Translation",
+      "Minor in French Studies",
+      "Course Descriptions",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

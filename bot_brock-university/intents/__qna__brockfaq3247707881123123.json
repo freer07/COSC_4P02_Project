@@ -1,0 +1,21 @@
+{
+  "name": "__qna__brockfaq3247707881123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Education - Aboriginal Adult Education",
+      "General Information",
+      "Admissions",
+      "Program Notes",
+      "Program A",
+      "Program B",
+      "Certificate in Aboriginal Adult Education",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

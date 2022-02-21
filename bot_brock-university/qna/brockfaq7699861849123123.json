@@ -1,0 +1,23 @@
+{
+  "id": "brockfaq7699861849123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/code.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Code of Student Conduct and Disciplinary Procedures in Non-Academic Matters",
+        "Student Code of Conduct"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

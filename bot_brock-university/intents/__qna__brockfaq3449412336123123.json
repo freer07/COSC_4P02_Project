@@ -1,0 +1,19 @@
+{
+  "name": "__qna__brockfaq3449412336123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Medical Sciences",
+      "General Information",
+      "Program Notes",
+      "Honours Program (only)",
+      "Minor Program",
+      "Minor in Gerontology",
+      "Description of Courses"
+    ]
+  },
+  "slots": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "brockfaq1171844435123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/pcul.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Popular Culture Studies",
+        "General Information",
+        "Journalism",
+        "Program Notes",
+        "Popular Culture Subfields",
+        "Cultural Texts",
+        "Cultural Practices",
+        "Cultural Industries",
+        "Honours Program",
+        "BA with Major program",
+        "Pass Program",
+        "Concentration in Digital Culture",
+        "Minor in Popular Culture Studies",
+        "Brock/Colleges Articulation Agreement",
+        "Description of Courses",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

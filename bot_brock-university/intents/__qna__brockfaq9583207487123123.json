@@ -1,0 +1,51 @@
+{
+  "name": "__qna__brockfaq9583207487123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Labour Studies",
+      "General Information",
+      "Co-op Program",
+      "Labour Studies-George Brown College",
+      "Labour Studies - Niagara College",
+      "Program Notes",
+      "Honours Program",
+      "Labour Studies Co-op (Honours only)",
+      "BA with Major Program",
+      "Pass Program",
+      "Combined Major Program",
+      "Honours",
+      "BA with Major",
+      "Pass",
+      "Labour Studies and Economics",
+      "Labour Studies and Geography",
+      "Labour Studies and History",
+      "Labour Studies and Political Science",
+      "Labour Studies and Sociology",
+      "Labour Studies and Women's and Gender Studies",
+      "Combined BA with Major",
+      "Labour Studies and Political Science",
+      "Labour Studies and Sociology",
+      "Certificate and Micro-certificate Programs",
+      "Certificate in Labour Studies Program",
+      "Micro-certificate in Human Rights at Work",
+      "Concentration in Labour Studies",
+      "Minor Program",
+      "Brock/Colleges Articulation Agreement",
+      "Labour Studies - George Brown College (Honours)",
+      "Labour Studies - George Brown College (BA with Major)",
+      "Labour Studies and Economics - George Brown College (BA with Major)",
+      "Labour Studies and History - George Brown College (BA with Major)",
+      "Labour Studies and Political Science - George Brown College (BA with Major)",
+      "Labour Studies and Sociology - George Brown College (BA with Major)",
+      "Labour Studies - Niagara College (Honours)",
+      "Labour Studies - Niagara College (BA with Major)",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

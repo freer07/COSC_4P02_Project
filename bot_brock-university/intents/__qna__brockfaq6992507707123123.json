@@ -1,0 +1,23 @@
+{
+  "name": "__qna__brockfaq6992507707123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Italian Studies",
+      "General Information",
+      "Summer Studies in Italy",
+      "Program Notes",
+      "Pass Program",
+      "Combined Major Program",
+      "Concentration Program",
+      "Minor in Italian Studies",
+      "Minor in Italian Language and Romance Linguistics",
+      "Course Descriptions",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

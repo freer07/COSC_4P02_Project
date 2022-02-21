@@ -1,0 +1,20 @@
+{
+  "id": "brockfaq6003365818123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/search.php"
+      ]
+    },
+    "questions": {
+      "en": []
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

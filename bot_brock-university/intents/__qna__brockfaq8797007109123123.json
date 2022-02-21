@@ -1,0 +1,15 @@
+{
+  "name": "__qna__brockfaq8797007109123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Academic Computing Information",
+      "I. Computing Access for Students",
+      "II. A Guide to Academic Computing Behaviour"
+    ]
+  },
+  "slots": []
+}

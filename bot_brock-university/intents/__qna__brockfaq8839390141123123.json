@@ -1,0 +1,16 @@
+{
+  "name": "__qna__brockfaq8839390141123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Applied Disability Studies",
+      "General Information",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

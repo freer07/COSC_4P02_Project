@@ -1,0 +1,22 @@
+{
+  "name": "__qna__brockfaq5474758927123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Biotechnology",
+      "General Information",
+      "Program Notes",
+      "Honours Program",
+      "Biotechnology Co-op (Honours only)",
+      "BSc with Major Program",
+      "Pass Program",
+      "Graduate (MSc, PhD) Program",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

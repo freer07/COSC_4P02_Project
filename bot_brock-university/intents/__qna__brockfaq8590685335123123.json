@@ -1,0 +1,23 @@
+{
+  "name": "__qna__brockfaq8590685335123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Experiential Learning Opportunities at Brock University",
+      "I. Overview of Experiential Learning at Brock",
+      "II. Co-op and Internship Programs",
+      "1. Co-operative Programs Office",
+      "2. List of Current Programs",
+      "III. Practica and Course-based Experiential Learning",
+      "IV. Experiential Learning Programs through Career Education",
+      "CAREER EDUCATION",
+      "MED PLUS",
+      "LAW PLUS",
+      "V. Campus-Wide Co-Curriculum and ExperientialBU Portal"
+    ]
+  },
+  "slots": []
+}

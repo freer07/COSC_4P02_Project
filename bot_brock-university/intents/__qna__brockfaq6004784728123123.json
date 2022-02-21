@@ -1,0 +1,20 @@
+{
+  "name": "__qna__brockfaq6004784728123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Business Economics",
+      "General Information",
+      "Program Notes",
+      "Honours Program",
+      "Financial Economics stream",
+      "Consumer Economics stream",
+      "Business Economics Co-op",
+      "Description of Courses"
+    ]
+  },
+  "slots": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "__qna__brockfaq9448955618123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Health Sciences",
+      "General Information",
+      "College Transfers",
+      "Science Credit Courses",
+      "Minor in Gerontology",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "__qna__brockfaq9688753379123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Education- Bachelor of Education-Primary and Junior (Aboriginal)",
+      "General Information",
+      "Admissions",
+      "Program Note",
+      "Program",
+      "Description of Courses"
+    ]
+  },
+  "slots": []
+}

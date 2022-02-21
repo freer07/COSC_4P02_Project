@@ -1,0 +1,22 @@
+{
+  "name": "__qna__brockfaq8822514676123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Forensic Psychology and Criminal Justice",
+      "Program Descriptions for BA (Honours) and BA (with Major)",
+      "Psychology",
+      "Child and Youth Studies",
+      "Political Science",
+      "Program Notes",
+      "Honours Program",
+      "BA (with Major) in Forensic Psychology and Criminal Justice",
+      "Course Descriptions",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

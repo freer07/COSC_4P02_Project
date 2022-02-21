@@ -1,0 +1,39 @@
+{
+  "id": "brockfaq9352053149123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/film.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Film Studies",
+        "General Information",
+        "Program Notes",
+        "Honours Program",
+        "BA with Major",
+        "Pass Program",
+        "Combined Major Program",
+        "Certificate Program",
+        "Certificate in Film Production",
+        "Certificate in Film Studies",
+        "Certificate in Television Production",
+        "Minor Program",
+        "Articulation Agreement",
+        "Advanced Film-Making-Fanshawe College",
+        "Broadcast Journalism-Television News-Fanshawe College",
+        "Visual Effects and Editing for Contemporary Media - Fanshawe College",
+        "Description of Courses",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "brockfaq112152841123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/HILA.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Hispanic and Latin American Studies",
+        "General Information",
+        "Third-year Abroad",
+        "Study in Latin America and Spain",
+        "One-Month Study Abroad",
+        "Program Notes",
+        "Combined Major Program",
+        "Certificate Program",
+        "Certificate in Language and Culture Proficiency",
+        "Certificate in Language Proficiency for Native Speakers",
+        "Minor Program",
+        "Minor in Hispanic and Latin American Studies",
+        "Minor in Spanish Language and Romance Linguistics",
+        "Concentration Program",
+        "Concentration in Spanish Language and Romance Linguistics",
+        "Concentration in Spanish and Comparative Studies in Romance Literatures and Cultures",
+        "Course Descriptions",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

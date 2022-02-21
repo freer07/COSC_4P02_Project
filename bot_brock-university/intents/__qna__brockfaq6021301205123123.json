@@ -1,0 +1,19 @@
+{
+  "name": "__qna__brockfaq6021301205123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Education - Concurrent BA Child and Youth Studies (Honours)/BEd (Primary/Junior)",
+      "General Information",
+      "Ontario College of Teachers Criminal Records Screening Policy",
+      "Admissions",
+      "Program Notes",
+      "Honours Program",
+      "Description of Courses"
+    ]
+  },
+  "slots": []
+}

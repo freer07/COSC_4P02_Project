@@ -1,0 +1,16 @@
+{
+  "name": "__qna__brockfaq1929694565123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Geography and Tourism Studies",
+      "General Information",
+      "Geography",
+      "Tourism Studies"
+    ]
+  },
+  "slots": []
+}

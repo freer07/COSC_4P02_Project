@@ -1,0 +1,32 @@
+{
+  "id": "brockfaq6992507707123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/ital.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Italian Studies",
+        "General Information",
+        "Summer Studies in Italy",
+        "Program Notes",
+        "Pass Program",
+        "Combined Major Program",
+        "Concentration Program",
+        "Minor in Italian Studies",
+        "Minor in Italian Language and Romance Linguistics ",
+        "Course Descriptions",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

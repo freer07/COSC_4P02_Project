@@ -1,0 +1,29 @@
+{
+  "name": "__qna__brockfaq6504760986123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Course Description",
+      "Course Numbering",
+      "Category Definitions for Primary Course Component",
+      "Lecture",
+      "Seminar",
+      "Laboratory",
+      "Field Course",
+      "International Field Experience",
+      "Internship",
+      "Practicum (Clinic)",
+      "Project",
+      "Asynchronous Online (no time slot required)",
+      "Synchronous Online (time slot required)",
+      "Blended - Online Mixed (time slot required)",
+      "Blended - Mixed Location (online and on campus)",
+      "Hyflex",
+      "Course Title Abbreviations"
+    ]
+  },
+  "slots": []
+}

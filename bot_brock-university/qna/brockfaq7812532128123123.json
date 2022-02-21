@@ -1,0 +1,37 @@
+{
+  "id": "brockfaq7812532128123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/tmgt.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Tourism Studies",
+        "General Information",
+        "Program Notes",
+        "Honours Program",
+        "Tourism Management Stream",
+        "Tourism Management Stream Co-op (Honours only)",
+        "Tourism and Environment",
+        "BA with Major Program",
+        "Tourism Management Stream",
+        "Tourism and Environment",
+        "Pass Program",
+        "Combined Major Program",
+        "Concentration in Cultural Transmission and Heritage Studies",
+        "Minor in Tourism Studies",
+        "Description of Courses",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

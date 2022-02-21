@@ -1,0 +1,41 @@
+{
+  "id": "brockfaq9152117794123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/comm.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Communication Studies: Business Communication; Media and Communication Studies",
+        "General Information",
+        "Journalism",
+        "Public Relations",
+        "Program Notes",
+        "Honours Program",
+        "Business Communication",
+        "Media and Communication Studies",
+        "BA with Major Business Communication",
+        "BA with Major Media and Communication Studies",
+        "Pass Program",
+        "Concentration in Digital Culture ",
+        "Minor Program",
+        "Minor in Digital Culture",
+        "Minor in Media Studies",
+        "Brock/Colleges Articulation Agreement",
+        "Journalism - Mohawk College",
+        "Public Relations- Mohawk College",
+        "Description of Courses",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

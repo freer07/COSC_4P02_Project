@@ -1,0 +1,30 @@
+{
+  "id": "brockfaq7995578314123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/EIBA.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Education - Concurrent BA (Honours)/BEd Junior/Intermediate",
+        "General Information",
+        "Ontario College of Teachers Criminal Records Screening Policy",
+        "Admissions",
+        "Program Notes",
+        "Honours Program",
+        "Integrated Studies",
+        "Interactive Arts and Science",
+        "Description of Courses"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "brockfaq9688753379123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/eabo.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Education- Bachelor of Education-Primary and Junior (Aboriginal)",
+        "General Information",
+        "Admissions",
+        "Program Note",
+        "Program",
+        "Description of Courses"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

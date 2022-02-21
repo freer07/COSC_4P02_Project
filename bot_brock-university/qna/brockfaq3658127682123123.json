@@ -1,0 +1,47 @@
+{
+  "id": "brockfaq3658127682123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/psyc.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Psychology",
+        "General Information",
+        "Psychology Co-op Program (Honours and 4 Year BA with Major)",
+        "Policing and Criminal Justice-Niagara College",
+        "Program Notes",
+        "Honours Program",
+        "Comprehensive Stream (Honours only) ",
+        "Research Stream (Honours only)",
+        "Comprehensive Stream Co-op (Honours only)",
+        "Research Stream Co-op (Honours only)",
+        "BA with Major Program",
+        "BA with Major Co-op",
+        "Yukon College Degree Completion Program (BA with Major) ",
+        "Pass Program",
+        "Combined Major Program",
+        "Honours",
+        "BA with Major",
+        "Pass",
+        "Psychology and Biological Sciences",
+        "Psychology and Child and Youth Studies",
+        "Minor in Psychology",
+        "Brock/Colleges Articulation Agreement",
+        "Policing and Criminal Justice-Niagara College",
+        "Graduate (MA, PhD) Program",
+        "Course Descriptions",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

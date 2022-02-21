@@ -1,0 +1,54 @@
+{
+  "id": "brockfaq2573355632123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/poli.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Political Science",
+        "General Information",
+        "Program Notes",
+        "Political Science Subfields",
+        "Honours Program",
+        "Political Science Co-op (Honours only)",
+        "Public Administration Co-op (Honours only)",
+        "International Political Economy (Honours only)",
+        "BA with Major Program",
+        "Pass Program",
+        "Combined Major Program",
+        "Political Science and Business (Honours only)",
+        "Political Science and Labour Studies",
+        "Certificate Program",
+        "Certificate in Public Administration",
+        "Certificate in Public Law",
+        "Concentration Programs",
+        "Concentration in International Development",
+        "Concentration in Public Law",
+        "Minor Program",
+        "Minor in Canadian Politics",
+        "Minor in Comparative Politics",
+        "Minor in International Relations",
+        "Minor in Political Theory",
+        "Minor in Political Science",
+        "Minor in Public Policy and Administration",
+        "Brock/Colleges Articulation Agreement",
+        "Paralegal - Seneca College",
+        "Policing and Criminal Justice-Niagara College",
+        "Political Science and Labour Studies-George Brown College",
+        "Master of Arts (MA) Program",
+        "Course Descriptions",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

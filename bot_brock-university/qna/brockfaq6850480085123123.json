@@ -1,0 +1,22 @@
+{
+  "id": "brockfaq6850480085123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/undc.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Undeclared Arts and Undeclared Science"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

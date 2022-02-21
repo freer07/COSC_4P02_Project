@@ -1,0 +1,22 @@
+{
+  "id": "brockfaq8863650879123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/sess.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "UNDERGRADUATE SESSIONAL DATES"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

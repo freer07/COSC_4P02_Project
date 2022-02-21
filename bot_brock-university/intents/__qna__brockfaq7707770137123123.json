@@ -1,0 +1,16 @@
+{
+  "name": "__qna__brockfaq7707770137123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Computing and Network Communications",
+      "General Information",
+      "Program Note",
+      "Honours Program"
+    ]
+  },
+  "slots": []
+}

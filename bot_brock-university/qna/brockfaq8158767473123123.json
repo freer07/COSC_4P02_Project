@@ -1,0 +1,27 @@
+{
+  "id": "brockfaq8158767473123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/chil.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Child Health",
+        "General Information",
+        "Program Notes",
+        "Honours Program (only)",
+        "Minor Program",
+        "Description of Courses"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

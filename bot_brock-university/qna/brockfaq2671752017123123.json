@@ -1,0 +1,40 @@
+{
+  "id": "brockfaq2671752017123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/biol.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Biological Sciences",
+        "General Information",
+        "Program Notes",
+        "Honours Program",
+        "BSc with Major Program",
+        "Biological Sciences Co-op (honours only)",
+        "Pass Program",
+        "Concurrent BSc/BEd",
+        "Combined Major Program",
+        "Biological Sciences and Chemistry",
+        "Biological Sciences and Geography",
+        "Biological Sciences and Mathematics",
+        "Biological Sciences and Psychology",
+        "Biological Sciences and Earth Sciences",
+        "Biological Sciences and Physics",
+        "Minor in Biological Sciences",
+        "Graduate (MSc, PhD) Program",
+        "Description of Courses",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

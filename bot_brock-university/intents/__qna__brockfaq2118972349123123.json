@@ -1,0 +1,36 @@
+{
+  "name": "__qna__brockfaq2118972349123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Geography",
+      "General Information",
+      "Co-op Program",
+      "Program Notes",
+      "Course Offerings",
+      "Honours Program",
+      "Bachelor of Arts in Geography",
+      "Bachelor of Arts in Geography Co-op (Honours only)",
+      "Bachelor of Science in Geography",
+      "Bachelor of Science in Geography Co-op (Honours only)",
+      "Concurrent BA/BEd and BSc/BEd",
+      "Pass Program",
+      "Combined Major Program",
+      "Concentration in Cultural Transmission and Heritage Studies",
+      "Concentration in Urban and Planning Studies",
+      "Certificate and Micro-certificate Programs",
+      "Micro-certificate in Community Planning",
+      "Minor in Environmental Science of the Anthropocene",
+      "Minor in Geography",
+      "Minor in Geomatics",
+      "Minor in Urban and Planning Studies",
+      "Master of Arts (MA) Program",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

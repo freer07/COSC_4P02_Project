@@ -1,0 +1,29 @@
+{
+  "name": "__qna__brockfaq6641546531123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Dramatic Arts",
+      "General Information",
+      "Program Notes",
+      "Honours Program",
+      "Dramatic Arts Co-op (Honours only)",
+      "Concurrent BA (Honours/BEd)",
+      "BA with Major Program",
+      "Pass Program",
+      "Combined Major Program",
+      "Certificate in Drama in Education and Applied Theatre",
+      "Concentration Program",
+      "Concentration in Drama in Education and Applied Theatre",
+      "Concentration in Performance",
+      "Concentration in Production and Design",
+      "Minor in Dramatic Arts",
+      "Course Descriptions",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "__qna__brockfaq1223736103123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Education - Concurrent BSc (Honours)/BEd (Intermediate/Senior)",
+      "General Information",
+      "Ontario College of Teachers Criminal Records Screening Policy",
+      "Admissions",
+      "Program Notes",
+      "Honours Program",
+      "Biological Sciences",
+      "Chemistry",
+      "Chemistry (Physics as a Second Teachable Subject)",
+      "Geography",
+      "Mathematics",
+      "Physics",
+      "Physics (Mathematics as Second Teachable Subject)",
+      "Physics (Chemistry as a Second Teachable Subject)",
+      "Description of Courses"
+    ]
+  },
+  "slots": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "brockfaq8063795572123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/life.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Life at Brock",
+        "I. Student Organizations",
+        "1. Brock University Students' Union",
+        "2. Office of the Ombudsman for Students",
+        "3. The Students'-Alumni Centre",
+        "4. Ontario Public Interest Research Group (OPIRG Brock)",
+        "II. Athletics",
+        "III. Brock Sports  Recreation Programs",
+        "Programs",
+        "IV. Parking Services",
+        "V. Brock University Campus Store",
+        "VI. Office of Alumni Relations",
+        "VII. Development and Donor Relations"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

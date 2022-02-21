@@ -1,0 +1,32 @@
+{
+  "id": "brockfaq9871779780123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/chhe.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Community Health",
+        "General Information",
+        "College Transfers",
+        "Dental Hygiene",
+        "Cardiovascular Technology",
+        "Massage Therapy",
+        "Pharmacy Technician",
+        "Program Notes",
+        "Pass Program",
+        "Minor Program",
+        "Description of Courses"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

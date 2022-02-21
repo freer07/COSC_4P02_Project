@@ -1,0 +1,29 @@
+{
+  "name": "__qna__brockfaq6106842785123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "History",
+      "General Information",
+      "Co-op Program",
+      "History and Labour Studies-George Brown College",
+      "Program Notes",
+      "Honours Program",
+      "HIST Co-op Program (Honours only)",
+      "Concurrent BA (Honours)/BEd",
+      "Pass Program",
+      "Combined Major Program",
+      "History and Labour Studies",
+      "Concentration in Cultural Transmission and Heritage Studies",
+      "Minor in Africana Studies",
+      "Minor in History",
+      "Brock/Colleges Articulation Agreement",
+      "Course Descriptions",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

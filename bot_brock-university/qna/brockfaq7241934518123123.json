@@ -1,0 +1,22 @@
+{
+  "id": "brockfaq7241934518123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/miss.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "MISSION STATEMENT"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

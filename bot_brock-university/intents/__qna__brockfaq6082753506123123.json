@@ -1,0 +1,20 @@
+{
+  "name": "__qna__brockfaq6082753506123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Communication, Popular Culture and Film",
+      "General Information",
+      "Communication Studies",
+      "Film Studies",
+      "Popular Culture Studies",
+      "Brock/Colleges Articulation Agreement Program",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

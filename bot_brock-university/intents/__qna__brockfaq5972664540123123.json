@@ -1,0 +1,18 @@
+{
+  "name": "__qna__brockfaq5972664540123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Education - Continuing Teacher Education",
+      "General Information",
+      "Admissions",
+      "Program Requirements",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

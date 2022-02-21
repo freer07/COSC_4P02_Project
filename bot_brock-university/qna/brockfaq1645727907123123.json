@@ -1,0 +1,28 @@
+{
+  "id": "brockfaq1645727907123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/csdt.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Computing and Solid-State Device Technology",
+        "General Information",
+        "Co-op Program",
+        "Program Notes",
+        "Honours Program",
+        "Computing and Solid-State Device Technology Co-op",
+        "Description of Courses"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

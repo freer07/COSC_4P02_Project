@@ -1,0 +1,20 @@
+{
+  "name": "__qna__brockfaq6308464431123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Indigenous Studies",
+      "General Information",
+      "Certificate Program",
+      "Certificate in Indigenous Language",
+      "Gidayaamin Indigenous Certificate",
+      "Minor in Indigenous Studies",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

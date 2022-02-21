@@ -1,0 +1,20 @@
+{
+  "name": "__qna__brockfaq1697420771123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Critical Criminology",
+      "General Information",
+      "Program Notes",
+      "Group Courses",
+      "Honours Program",
+      "Minor Program",
+      "Course Descriptions",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

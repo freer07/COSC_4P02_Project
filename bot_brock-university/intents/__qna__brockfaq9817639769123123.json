@@ -1,0 +1,37 @@
+{
+  "name": "__qna__brockfaq9817639769123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Recreation and Leisure Studies",
+      "General Information",
+      "Program Notes",
+      "Honours Program",
+      "Community Recreation",
+      "Outdoor Recreation",
+      "Therapeutic Recreation",
+      "Bachelor of Recreation and Leisure Studies with Major",
+      "Community Recreation",
+      "Outdoor Recreation",
+      "Therapeutic Recreation",
+      "Pass Program",
+      "Certificate and Micro-certificate Programs",
+      "Certificate in Outdoor Recreation",
+      "Certificate in Recreation and Leisure Studies",
+      "Micro-certificate in Outdoor Recreation Leadership",
+      "Micro-certificate in Recreation Programming Foundations",
+      "Micro-certificate in Therapeutic Recreation Foundations",
+      "Minor Program",
+      "Minor in Gerontology",
+      "Minor in Outdoor Recreation",
+      "Minor in Recreation and Leisure Studies",
+      "Brock/Colleges Articulation Agreement",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

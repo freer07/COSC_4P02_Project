@@ -1,0 +1,40 @@
+{
+  "name": "__qna__brockfaq5653461934123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Music",
+      "General Information",
+      "Facilities",
+      "Public Events",
+      "Large Ensembles",
+      "Entrance Requirements for Music Majors",
+      "Language Requirement for Music Majors",
+      "Program Notes",
+      "BMus Program (Honours only)",
+      "BA Honours Program",
+      "BA with Major Program",
+      "Pass Program",
+      "Combined Major Program",
+      "Concentration Program",
+      "Concentration in Music Education",
+      "Concentration in Music Performance",
+      "Concentration in Music Therapy Foundations",
+      "Certificate and Micro-certificate Programs",
+      "Certificate in Choral/Vocal Music",
+      "Certificate in Instrumental Music",
+      "Micro-certificate in Choral/Vocal Music",
+      "Micro-certificate in Instrumental Music",
+      "Micro-certificate in Music Making/Music Thinking",
+      "Minor in Music",
+      "Minor in Choral/Vocal Music",
+      "Minor in Instrumental Music",
+      "Course Descriptions",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "brockfaq3667916590123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/cana.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Canadian Studies",
+        "General Information",
+        "Program Notes",
+        "Honours Program",
+        "Canadian Studies and French Studies Program",
+        "Pass Program",
+        "Certificate in Canada's Cultural Context",
+        "Certificate in Canadian Culture and Diversity",
+        "Minor in Canadian Studies",
+        "Approved Canadian Studies Courses Offered by Other Departments/Centres",
+        "Description of Courses",
+        "Prerequisites and Restrictions"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

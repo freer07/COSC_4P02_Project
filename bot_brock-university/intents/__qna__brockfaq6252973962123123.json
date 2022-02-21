@@ -1,0 +1,19 @@
+{
+  "name": "__qna__brockfaq6252973962123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Co-operative Programs",
+      "1.What is a Co-op or Internship?",
+      "2. List of Current Programs",
+      "3. Co-op Administrative Fees",
+      "4. Co-op Continuation and Completion Requirements",
+      "Withdrawals",
+      "Graduation Requirements"
+    ]
+  },
+  "slots": []
+}

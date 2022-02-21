@@ -1,0 +1,28 @@
+{
+  "id": "brockfaq3449412336123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/medi.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Medical Sciences",
+        "General Information",
+        "Program Notes",
+        "Honours Program (only)",
+        "Minor Program",
+        "Minor in Gerontology",
+        "Description of Courses"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

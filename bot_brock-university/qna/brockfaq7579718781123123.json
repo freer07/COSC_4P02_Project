@@ -1,0 +1,25 @@
+{
+  "id": "brockfaq7579718781123123",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "You can find more information here: https://www.brocku.ca/webcal/2021/undergrad/agen.html"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Faculty of Applied Health",
+        "Bachelor of Applied Health (Pass)",
+        "Program Notes",
+        "Pass Program"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

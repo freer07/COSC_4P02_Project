@@ -1,0 +1,18 @@
+{
+  "name": "__qna__brockfaq112531349123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "DEGREES, CERTIFICATES, MICRO-CERTIFICATES AND MINORS",
+      "DEGREES",
+      "CONCURRENT DEGREES",
+      "CERTIFICATES",
+      "MICRO-CERTIFICATES",
+      "MINORS"
+    ]
+  },
+  "slots": []
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "builtin_card-U5pB-4",
+    "formData": {
+      "actions$en": [
+        {
+          "action": "Open URL",
+          "url": "https://brocku.ca/webcal/2021/undergrad/",
+          "title": "Learn More"
+        }
+      ],
+      "title$en": "Link"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-14T02:10:54.321Z",
+    "modifiedOn": "2022-02-14T02:11:28.612Z"
+  },
+  {
+    "id": "builtin_card-oRlESd",
+    "formData": {
+      "image$en": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/00gr2xl6hi0gx311p30f-brockLogo.png",
+      "title$en": "You can find more details here.",
+      "actions$en": [
+        {
+          "action": "Open URL",
+          "title": "LEARN MORE",
+          "url": "https://brocku.ca/webcal/2021/undergrad/"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-14T02:14:05.764Z",
+    "modifiedOn": "2022-02-14T02:14:05.764Z"
+  }
+]

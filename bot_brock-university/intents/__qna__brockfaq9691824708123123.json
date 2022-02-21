@@ -1,0 +1,18 @@
+{
+  "name": "__qna__brockfaq9691824708123123",
+  "entities": [],
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Biophysics",
+      "General Information",
+      "Program Notes",
+      "Honours Program",
+      "Description of Courses",
+      "Prerequisites and Restrictions"
+    ]
+  },
+  "slots": []
+}

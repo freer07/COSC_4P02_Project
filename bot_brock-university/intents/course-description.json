@@ -13,7 +13,9 @@
       "I need help learning about [Math 1P05](courseName)?",
       "Details about [COSC 2B70](courseName).",
       "Tell me about [COSC 4P02](courseName)",
-      "I want to learn more about [ECON 3P91](courseName)?"
+      "I want to learn more about [ECON 3P91](courseName)?",
+      "I want to know more about [COSC 1P99](courseName).",
+      "I want to know more about [COsC 1p04](courseName)."
     ]
   },
   "slots": [
