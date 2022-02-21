@@ -1,0 +1,31 @@
+{
+  "name": "course-term",
+  "utterances": {
+    "en": [
+      "What term is [COSC 4P02](courseName)",
+      "what is the duration for [CHEM 1F90](courseName)",
+      "term of [ACTG 2P51](courseName)",
+      "term of [ECON 1P05](courseName)",
+      "When does [COSC 3p32](courseName) start and end.",
+      "start date for [LING 4F34](courseName)",
+      "start of [ENTR 2p51](courseName)",
+      "end of [BIOL 1f90](courseName)",
+      "term of [MATH 1p77](courseName)",
+      "term of [accc 2k89](courseName)",
+      "when does [Math 1p66](courseName) run"
+    ]
+  },
+  "slots": [
+    {
+      "id": "WD0NUJVLJfWN7ARCiCtqa",
+      "name": "courseName",
+      "entities": [
+        "courseName"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

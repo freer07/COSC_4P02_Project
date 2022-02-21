@@ -1,0 +1,177 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "Main",
+  "nodes": [
+    {
+      "id": "5a6f2817d4",
+      "name": "getDescription",
+      "next": [
+        {
+          "condition": "true",
+          "node": "sayDetails"
+        }
+      ],
+      "onEnter": [
+        "getCourseDescription {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7494afcd1d",
+      "name": "getProfessors",
+      "next": [
+        {
+          "condition": "true",
+          "node": "sayDetails"
+        }
+      ],
+      "onEnter": [
+        "getProfessorByCourse {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "538c3beb82",
+      "name": "sayDetails",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2ARQI7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6df6a390a1",
+      "name": "Welcome",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-tC53zN"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "021a6e2356",
+      "name": "Otherwise",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-R7ccHU"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ba942dcf5d",
+      "name": "getPrerequisites",
+      "next": [
+        {
+          "condition": "true",
+          "node": "sayDetails"
+        }
+      ],
+      "onEnter": [
+        "getCoursePrereqs {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c1cdeda08e",
+      "name": "getPrerequisites-copy",
+      "next": [
+        {
+          "condition": "true",
+          "node": "sayDetails"
+        }
+      ],
+      "onEnter": [
+        "getCourseLabs {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "271e47ff48",
+      "name": "getTerm",
+      "next": [
+        {
+          "condition": "true",
+          "node": "sayDetails"
+        }
+      ],
+      "onEnter": [
+        "getCourseTerm {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "23df5ece18",
+      "name": "Main",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === \"hello\"",
+          "conditionType": "raw",
+          "node": "Welcome"
+        },
+        {
+          "condition": "event.nlu.intent.name === \"course-description\"",
+          "conditionType": "raw",
+          "node": "getDescription"
+        },
+        {
+          "condition": "event.nlu.intent.name === \"course-professor\"",
+          "conditionType": "raw",
+          "node": "getProfessors"
+        },
+        {
+          "condition": "event.nlu.intent.name === \"course-prerequisites\"",
+          "conditionType": "raw",
+          "node": "getPrerequisites"
+        },
+        {
+          "condition": "event.nlu.intent.name === \"course-labs\"",
+          "conditionType": "raw",
+          "node": "getPrerequisites-copy"
+        },
+        {
+          "condition": "event.nlu.intent.name === \"course-term\"",
+          "conditionType": "raw",
+          "node": "getTerm"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "Otherwise"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

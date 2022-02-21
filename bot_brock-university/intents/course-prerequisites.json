@@ -1,0 +1,38 @@
+{
+  "name": "course-prerequisites",
+  "utterances": {
+    "en": [
+      "what are prereqs for [BIOL 1F90](courseName)?",
+      "[COSC 1P02](courseName) prerequisites",
+      "prerequisites for [FNCE 2P91](courseName)",
+      "I am looking for the prerequisites involving [ENTR 3P83](courseName)",
+      "what are the prereqs for [CHEM 1F90](courseName)",
+      "What are the requirements to take [COSC 3P32](courseName)",
+      "What do I need in order to take [ACTG 4B73](courseName)",
+      "How many prerequisites are there for [PSYC 1F90](courseName)",
+      "Is there prerequisites for [OBHR 2P51](courseName)",
+      "what are the courses I need to take before I can take COSC 3P99",
+      "requirements for [LING 3B78](courseName)",
+      "requirement for [COSC 4P61](courseName)",
+      "requirement for [cosc 4p78](courseName)",
+      "what the requirements for [cosc 2P98](courseName)",
+      "prerequisites for [MKRT 2P45](courseName)",
+      "[BTEC 2p09](courseName) reqs",
+      "reqs [CANA 4F00](courseName)",
+      "reqs for [APCO 2P89](courseName)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "AKy7pZdBp-wVFr5KNPoMY",
+      "name": "courseName",
+      "entities": [
+        "courseName"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

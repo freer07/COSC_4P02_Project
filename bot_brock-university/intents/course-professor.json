@@ -1,0 +1,33 @@
+{
+  "name": "course-professor",
+  "utterances": {
+    "en": [
+      "Who teaches [COSC 1P02](courseName)?",
+      "Who is the instructor for [MATH 1P98](courseName)?",
+      "[ASTR 1P01](courseName) instructor",
+      "[ENTR 2P51](courseName) teacher",
+      "[BIOL 2B63](courseName) professor",
+      "professor for [MATH 1P66](courseName)",
+      "Who is the professor for [ENTR 2P91](courseName).",
+      "Who is teaching [CHEM 2N73](courseName)?",
+      "WHO TEACHES [COSC 4p01](courseName)?",
+      "[cosc 3p32](courseName) professor",
+      "[CHEM 6B83](courseName) teacher",
+      "who teaches [cosc 3p32](courseName)",
+      "who is teaching [FNCE 2p91](courseName)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "ww5-D20DffCuOiaO5ABtq",
+      "name": "courseName",
+      "entities": [
+        "courseName"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

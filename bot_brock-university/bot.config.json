@@ -1,0 +1,57 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {
+    "website": "",
+    "phoneNumber": "",
+    "emailAddress": "",
+    "termsConditions": "",
+    "privacyPolicy": "",
+    "avatarUrl": "",
+    "coverPictureUrl": ""
+  },
+  "$schema": "../../bot.config.schema.json",
+  "description": "A collection of information about Brock University.",
+  "active": true,
+  "version": "12.26.9",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_card",
+      "builtin_carousel",
+      "builtin_image",
+      "builtin_single-choice",
+      "builtin_text",
+      "dropdown"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "brock-university",
+  "name": "Brock University",
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2022-02-13T02:01:08.834Z",
+      "promoted_by": "mt17qj@brocku.ca"
+    }
+  },
+  "messaging": {
+    "id": "9b248464-0076-486c-9d4c-8c4e40539581",
+    "token": "5de9ae7d-28a6-4b7d-a2ff-c58aa1060c29.BOVoP3zosXdZ7+8tjToNeIQrO3XS2On2Y2DzAz9pzQhvF6at7Ds6OJSLKmTFOCByLdeYR4MhK5zEniByWtAdcO3G"
+  }
+}
