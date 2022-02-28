@@ -9,9 +9,20 @@ import React, { useState, useEffect } from 'react';
 function App() {
 	const [messages, setMessages] = useState([])
 	const [activeSidebar, setactiveSidebar] = useState(false)
+	const [darkTheme, setdarkTheme] = useState(false)
 
 	const sendMessage = (message) => {
-		setMessages([...messages, {author:"visitor", content: message}])
+		let newMessages = [...messages, {author:"visitor", content: message}]
+		setMessages(newMessages)
+
+		const chatBotMessage = getChatBotResponse(message)
+		chatBotMessage.then(data => {
+			setMessages([...newMessages, {author:"chatbot", content: data.responses[0].text}])
+		})
+		.catch(function() {
+        	console.log("failed to fetch bot response");
+			setMessages([...newMessages, {author:"chatbot", content: "Unable to reach the chatbot."}])
+    	});
 	};
 	const toggleSidebar = () =>{
 		setactiveSidebar(!activeSidebar)
@@ -21,7 +32,6 @@ function App() {
 		const element = document.createElement("a");
 		let chatLogHistory = ""
 		for (let index = 0; index < messages.length; index++) {
-			console.log(messages[index])
 			chatLogHistory += messages[index].author + ": " + messages[index].content + "\n"
 		}
 		const file = new Blob([chatLogHistory], {
@@ -40,6 +50,10 @@ function App() {
 		}
 	}
 
+	const toggleDarkTheme = () =>{
+		setdarkTheme(!darkTheme)
+	}
+
 	const returnToMain = () =>{
 		console.log("return to main")
 	}
@@ -56,10 +70,17 @@ function App() {
     	};
 	}, []);
 
+	useEffect(() => {
+		var recentMessageElement = document.querySelector(".last-message");
+		if(typeof recentMessageElement !== undefined && recentMessageElement !== null ){
+			recentMessageElement.scrollIntoView();
+		}
+	}, [messages]);
+	const appClassNames = (activeSidebar ? ' active-sidebar':'') + (darkTheme ? ' dark-theme':'')
 	return (
-		<div className={`app${activeSidebar? ' active-sidebar':''}`}>
+		<div className={`app${appClassNames}`}>
 			<div className="overlay"></div>
-			<Sidebar  toggleSidebar={toggleSidebar} sidebarFunctions={{downloadChatLog, refreshChat, returnToMain}}/>
+			<Sidebar  toggleSidebar={toggleSidebar} sidebarFunctions={{downloadChatLog, refreshChat, toggleDarkTheme, returnToMain}}/>
 			<Header toggleSidebar={toggleSidebar}/>
 			<MessageList messages={messages} />
 			<SendMessageForm sendMessage={sendMessage} />
@@ -67,6 +88,18 @@ function App() {
 	);
 }
 
-
+const getChatBotResponse = (visitorMessage) =>{
+	const randomID = Math.random().toString(36).slice(2)
+	const url = "https://www.advenship.com/api/v1/bots/brock-university/converse/"+randomID
+	const data = {type: "text", text: visitorMessage}
+	return fetch(url, {
+		method: "POST",
+		headers: {'Content-Type': 'application/json'}, 
+		body: JSON.stringify(data)
+	}).then(response => response.json())
+	.catch(function() {
+		console.log("Can't reach url, potential CORS issue");
+	});
+}
 
 export default App;

@@ -1,16 +1,15 @@
-import '../sidebar.css';
+import './Sidebar.css';
 import {ReactComponent as MenuButton} from '../icons/menu.svg';
 import {ReactComponent as DownloadButton} from '../icons/download.svg';
 import {ReactComponent as RefreshButton} from '../icons/refresh.svg';
 import {ReactComponent as LogOutButton} from '../icons/log-out.svg';
 
-
 const Sidebar = ({toggleSidebar, sidebarFunctions}) => {
-    const {downloadChatLog, refreshChat, returnToMain} = sidebarFunctions
-    
+    const {downloadChatLog, refreshChat, toggleDarkTheme, returnToMain} = sidebarFunctions
     const sidebarNavItems = [
         {
             text: 'Chat Log',
+            identifier: "chat-log-item",
             icon: <DownloadButton className='menu-icon' width="30px" height="30px"/>,
             to: '/',
             section: '',
@@ -18,6 +17,7 @@ const Sidebar = ({toggleSidebar, sidebarFunctions}) => {
         },
         {
             text: 'Refresh Chat',
+            identifier: "refresh-chat-item",
             icon: <RefreshButton className='menu-icon' width="30px" height="30px"/>,
             to: '/',
             section: '',
@@ -25,7 +25,18 @@ const Sidebar = ({toggleSidebar, sidebarFunctions}) => {
 
         },
         {
+            text: 'Dark Theme',
+            identifier: "dark-theme-item",
+            icon: <label className="switch"><input type="checkbox" onChange={toggleDarkTheme}/><div></div></label>,
+            to: '/',
+            section: '',
+            function: () =>{}
+
+        },
+
+        {
             text: 'Return',
+            identifier: "return-item",
             icon: <LogOutButton className='menu-icon' width="30px" height="30px"/>,
             to: '/',
             section: '',
@@ -43,7 +54,7 @@ const Sidebar = ({toggleSidebar, sidebarFunctions}) => {
             {
                 sidebarNavItems.map((menuItem, index) => (
                     <div key={index} onClick={() => {menuItem.function()}}>
-                        <div className={'sidebar-menu-item'}>
+                        <div className={`sidebar-menu-item ${menuItem.identifier}`}>
                             
                             <div className="sidebar-menu-item-text">
                                 {menuItem.text}

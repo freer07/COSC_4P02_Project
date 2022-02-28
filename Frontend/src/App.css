@@ -1,5 +1,5 @@
 :root {
-  --main-color: #5ea3d0;
+  --main-color: #cc0202;
   --secondary-color: white;
   --main-text-color: #3e5869;
   --secondary-text-color: #b0c7d6;
@@ -50,6 +50,11 @@ body {
   z-index: 5;
 }
 
+.app.dark-theme .header {
+  color: var(--secondary-color);
+  background: #690000;
+}
+
 .header .menu-button {
   z-index: 5;
 }
@@ -61,6 +66,11 @@ body {
 .menu-icon {
   width: 100%;
   vertical-align: middle;
+}
+
+.header-menu-icon {
+  left: 0;
+  position: absolute;
 }
 
 .title {
@@ -111,6 +121,10 @@ body {
   background: #dae1e7;
 }
 
+.app.dark-theme .inner-message {
+  color: white;
+}
+
 .visitor .inner-message {
   -webkit-box-ordinal-group: 2;
   -webkit-order: 1;
@@ -121,14 +135,22 @@ body {
   color: #000000;
 }
 
+.app.dark-theme .visitor .inner-message {
+  background-color: #909497;
+}
+
 .chatbot .inner-message {
   -webkit-box-ordinal-group: 2;
   -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
   border-top-left-radius: 2px;
-  background-color: #bad8ba;
+  background-color: rgb(216, 186, 186);
   color: #000000;
+}
+
+.app.dark-theme .chatbot .inner-message {
+  background-color: rgb(143 123 123);
 }
 
 @media screen and (min-width: 700px) {
@@ -147,6 +169,10 @@ body {
   background: white;
 }
 
+.app.dark-theme .message-list {
+  background: rgb(34, 34, 34);
+}
+
 .message-list ul {
   padding-inline-start: 0px;
 }
@@ -158,6 +184,10 @@ body {
   height: 100px;
 }
 
+.app.dark-theme .send-message-form {
+  background: #424242;
+}
+
 .send-message-form input {
   width: 100%;
   padding: 15px 20px;
@@ -166,6 +196,24 @@ body {
   background: var(--send-message-form);
   font-weight: 400;
   font-size: 16px;
+}
+
+.app.dark-theme .send-message-form input {
+  background: #424242;
+  color: white;
+}
+
+.app.dark-theme .send-message-form input::-webkit-input-placeholder {
+  color: rgb(155, 155, 155);
+}
+.app.dark-theme .send-message-form input::-moz-placeholder {
+  color: rgb(155, 155, 155);
+}
+.app.dark-theme .send-message-form input:-ms-input-placeholder {
+  color: rgb(155, 155, 155);
+}
+.app.dark-theme .send-message-form input:-moz-placeholder {
+  color: rgb(155, 155, 155);
 }
 
 .send-message-form input:focus {
@@ -184,6 +232,7 @@ body {
   font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.25rem;
+  width: 100px;
   margin: 5px 20px;
   padding: 0.75rem 1rem;
   text-align: center;
@@ -196,8 +245,17 @@ body {
   touch-action: manipulation;
 }
 
+.app.dark-theme .submit-button {
+  background: rgb(88 87 87);
+  color: #eee7d8;
+}
+
 .submit-button:hover {
   background-color: rgb(224, 224, 224);
+}
+
+.app.dark-theme .submit-button:hover {
+  background: rgb(112, 112, 112);
 }
 
 .submit-button:focus {
