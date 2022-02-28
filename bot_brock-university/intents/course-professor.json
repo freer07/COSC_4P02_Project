@@ -14,7 +14,17 @@
       "[cosc 3p32](courseName) professor",
       "[CHEM 6B83](courseName) teacher",
       "who teaches [cosc 3p32](courseName)",
-      "who is teaching [FNCE 2p91](courseName)"
+      "who is teaching [FNCE 2p91](courseName)",
+      "who teaches [cosc 2p05](courseName)",
+      "who teaches [econ 1p91](courseName)",
+      "prof for [BIOL 2P51](courseName).",
+      "who teaches [FNCE 4p19](courseName)",
+      "prof for math 1p66",
+      "COSC 1p02 teacher",
+      "who teaches FNCE 4p19",
+      "professor for Econ 1p91",
+      "proffer Econ 1p91",
+      "who is the prof for Econ 1p91"
     ]
   },
   "slots": [

@@ -2,7 +2,7 @@
   "name": "course-description",
   "utterances": {
     "en": [
-      "What is [COSC 1P02](courseName) about?",
+      "What is COSC 1P02 about?",
       "Details regarding [ECON 2P05](courseName)",
       "What is [MATH 1P66](courseName)?",
       "I'm looking for information about [COSC 1P02](courseName)",
@@ -14,8 +14,8 @@
       "Details about [COSC 2B70](courseName).",
       "Tell me about [COSC 4P02](courseName)",
       "I want to learn more about [ECON 3P91](courseName)?",
-      "I want to know more about [COSC 1P99](courseName).",
-      "I want to know more about [COsC 1p04](courseName)."
+      "what is FNCE 4P08",
+      "what is FREN 1F90"
     ]
   },
   "slots": [

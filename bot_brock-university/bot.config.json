@@ -42,16 +42,16 @@
     "en"
   ],
   "id": "brock-university",
-  "name": "Brock University",
+  "name": "Brock University (brock-university)",
   "pipeline_status": {
     "current_stage": {
       "id": "prod",
-      "promoted_on": "2022-02-13T02:01:08.834Z",
-      "promoted_by": "mt17qj@brocku.ca"
+      "promoted_on": "2022-02-28T02:29:41.264Z",
+      "promoted_by": "system"
     }
   },
   "messaging": {
-    "id": "9b248464-0076-486c-9d4c-8c4e40539581",
-    "token": "5de9ae7d-28a6-4b7d-a2ff-c58aa1060c29.BOVoP3zosXdZ7+8tjToNeIQrO3XS2On2Y2DzAz9pzQhvF6at7Ds6OJSLKmTFOCByLdeYR4MhK5zEniByWtAdcO3G"
+    "id": "23ea615b-5cec-40a4-b0be-6811f6d5bb8f",
+    "token": "c785c0dc-e01f-449b-8aad-a5ee7042e277.uv1HahDAfrMewvMWpIFvIpfKXT1FyWuTiDB7Bg2VWt5KOY3JK+66T7s6p8YREaTRHBtd5pQ2R9lBuEcuPYrjgN4e"
   }
 }

@@ -23,7 +23,9 @@
       "I need to know when the labs are for [CHEM 2P20](courseName)?",
       "labs for [cosc 1p03](courseName)",
       "labs for [COSC 1p02](courseName)",
-      "what are the labs for [COSC 1P03](courseName)"
+      "what are the labs for [COSC 1P03](courseName)",
+      "any labs for [FREN 1p93](courseName)",
+      "Does [SPAN 2p95](courseName) have labs?"
     ]
   },
   "slots": [

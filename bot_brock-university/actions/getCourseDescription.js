@@ -11,18 +11,18 @@
 
     try {
       const client = new Client({
-        user: '',
-        host: '',
-        database: '',
-        password: '',
+        user: 'masterbotaccess',
+        host: 'botpressdb.ctor5sx6le6s.ca-central-1.rds.amazonaws.com',
+        database: 'brockcollection',
+        password: 'whyarefruitbowlssoexpensive',
         port: 5432
       })
 
       client.connect()
 
       const text =
-        'SELECT * FROM COURSES WHERE CODE LIKE $1 AND (TYPE LIKE $2 OR TYPE LIKE $3 OR TYPE LIKE $4 OR TYPE LIKE $5 OR TYPE LIKE $6 OR TYPE LIKE $7 OR TYPE LIKE $8) LIMIT 1 '
-      const values = [courseCode, 'LEC', 'ONM', 'FLD', 'LEC2', 'ASY', 'SYN', 'BLD']
+        'SELECT * FROM COURSES WHERE CODE LIKE $1 AND (TYPE LIKE $2 OR TYPE LIKE $3 OR TYPE LIKE $4 OR TYPE LIKE $5 OR TYPE LIKE $6 OR TYPE LIKE $7 OR TYPE LIKE $8 OR TYPE LIKE $9 OR TYPE LIKE $10 OR TYPE LIKE $11) LIMIT 1 '
+      const values = [courseCode, 'LEC', 'ONM', 'FLD', 'LEC2', 'ASY', 'SYN', 'BLD', 'SEM', 'LAB', 'CLI']
 
       await client
         .query(text, values)

@@ -12,10 +12,10 @@
 
     try {
       const client = new Client({
-        user: '',
-        host: '',
-        database: '',
-        password: '',
+        user: 'masterbotaccess',
+        host: 'botpressdb.ctor5sx6le6s.ca-central-1.rds.amazonaws.com',
+        database: 'brockcollection',
+        password: 'whyarefruitbowlssoexpensive',
         port: 5432
       })
 
