@@ -1,0 +1,141 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0;
+  z-index: -1;
+  transition: width 0.4s;
+}
+
+.app.dark-theme .sidebar {
+  background-color: rgb(34, 34, 34);
+}
+
+.app.active-sidebar .sidebar {
+  width: 200px;
+  z-index: 1000;
+  opacity: 1;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  height: 67px;
+  color: var(--secondary-color);
+  background: var(--main-color);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.app.dark-theme .sidebar-header {
+  background-color: #690000;
+}
+
+.sidebar .menu-button {
+  justify-content: left;
+}
+
+.menu-button {
+  cursor: pointer;
+}
+
+.sidebar-menu {
+  position: relative;
+}
+
+.sidebar-menu-item {
+  display: flex;
+  align-items: center;
+  place-content: flex-start;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #555555;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+  user-select: none;
+}
+
+.app.dark-theme .sidebar-menu-item {
+  color: #aaaaaa;
+}
+
+.sidebar-menu-item .sidebar-menu-item:hover {
+  background-color: rgb(224, 224, 224);
+  cursor: pointer;
+}
+
+.app.dark-theme .sidebar-menu-item .sidebar-menu-item:hover {
+  background-color: rgb(41, 41, 41);
+  cursor: pointer;
+}
+
+.sidebar-menu-item-icon {
+  margin-left: auto;
+}
+
+.sidebar-menu-item-text {
+  font-size: 1rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.switch input {
+  position: absolute;
+  opacity: 0;
+}
+
+.sidebar-menu-item.dark-theme-item {
+  cursor: auto;
+}
+
+.sidebar-menu-item.dark-theme-item .switch {
+  cursor: pointer;
+}
+
+.sidebar-menu-item.dark-theme-item .switch * {
+  cursor: pointer;
+}
+
+/**
+ * 1. Adjust this to size
+ */
+
+.switch {
+  display: inline-block;
+  font-size: 20px; /* 1 */
+  height: 1em;
+  width: 2em;
+  background: grey;
+  border-radius: 1em;
+}
+
+.app.dark-theme .switch {
+  background: #0089ff;
+}
+
+.switch div {
+  height: 1em;
+  width: 1em;
+  border-radius: 1em;
+  background: #fff;
+  box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.switch input:checked + div {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
