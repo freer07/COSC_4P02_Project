@@ -22,7 +22,6 @@ const Sidebar = ({toggleSidebar, sidebarFunctions}) => {
             to: '/',
             section: '',
             function: refreshChat
-
         },
         {
             text: 'Dark Theme',
@@ -31,7 +30,6 @@ const Sidebar = ({toggleSidebar, sidebarFunctions}) => {
             to: '/',
             section: '',
             function: () =>{}
-
         },
 
         {
@@ -41,7 +39,6 @@ const Sidebar = ({toggleSidebar, sidebarFunctions}) => {
             to: '/',
             section: '',
             function: returnToMain
-
         },
 
     ]
