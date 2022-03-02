@@ -47,6 +47,27 @@ def ajax_complete(driver):
         pass
 
 
+def saveList(list):
+    for l in list:
+        # print(l.get_attribute("innerHTML"))
+
+        tdList = l.find_elements(By.TAG_NAME, "td")
+
+        occasion = tdList[0].get_attribute("innerHTML")
+        session = tdList[1].get_attribute("innerHTML")
+        stakeholderType = tdList[2].get_attribute("innerHTML")
+        date = tdList[3].get_attribute("innerHTML")
+        print(occasion + " \t " + session + " \t " +
+              stakeholderType + " \t " + date + " \n")
+
+        # Preparing SQL queries to INSERT a record into the database.
+        print("Posting!!\n")
+        postgres_insert_query = """INSERT INTO IMPORTANT_DATES VALUES (%s,%s,%s,%s)"""
+        record_to_insert = (str(occasion), str(session),
+                            str(stakeholderType), str(date))
+        cur.execute(postgres_insert_query, record_to_insert)
+
+
 # Functions that grabs correct elements from the dynamic web-page.
 def pullData(url):
 
@@ -58,22 +79,19 @@ def pullData(url):
     list = div.find_element(
         By.TAG_NAME, "tbody").find_elements(By.TAG_NAME, "tr")
 
-    for l in list:
-        print(l.get_attribute("innerHTML"))
+    saveList(list)
 
     div = driver.find_element(By.ID, "spring")
     list = div.find_element(
         By.TAG_NAME, "tbody").find_elements(By.TAG_NAME, "tr")
 
-    for l in list:
-        print(l.get_attribute("innerHTML"))
+    saveList(list)
 
     div = driver.find_element(By.ID, "summer")
     list = div.find_element(
         By.TAG_NAME, "tbody").find_elements(By.TAG_NAME, "tr")
 
-    for l in list:
-        print(l.get_attribute("innerHTML"))
+    saveList(list)
 
     # for t in table_list:
     #     list = t.find_element(By.TAG_NAME, "tbody").find_elements(By.TAG_NAME,)
