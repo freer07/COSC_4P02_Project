@@ -9,7 +9,7 @@ const MessageList = ({messages}) => {
                 return (
                     <li key={index} className={index + 1 === messages.length ? authorClass + " last-message" : authorClass}>
                         <div className='inner-message'>
-                            <div>{message.text}</div>
+                            <div className='message-text'>{message.text}</div>
                         </div>
                     </li>
                 )

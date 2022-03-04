@@ -153,6 +153,10 @@ body {
   background-color: rgb(143 123 123);
 }
 
+.message-text {
+  white-space: pre-wrap;
+}
+
 @media screen and (min-width: 700px) {
   .inner-message {
     width: 285px;

@@ -4,6 +4,7 @@ const SendMessageForm = ({messages, sendMessage}) => {
 
     const [message, setMessage] = useState("")
     const [previousMessageIndex, setPreviousMessageIndex] = useState(-1)
+    
     const handleOnChange = newMessage => {
         if(newMessage !== message){
             setPreviousMessageIndex(-1)
@@ -13,19 +14,19 @@ const SendMessageForm = ({messages, sendMessage}) => {
 
     const handleSubmit = event => {
         event.preventDefault()
-        if(message){
+        const newMessage = (message.trim()).replace(/(<([^>]+)>)/gi, "");
+        if(newMessage){
             setPreviousMessageIndex(-1)
-            sendMessage(message)
+            sendMessage(newMessage)
             setMessage("");
         }
     };
 
-
     useEffect(() => {
 		const handleDown = (event) => {
-
-			if (event.keyCode === 40 && messages.length !== 0) {
-                const messageInputField = document.getElementById('message-input-field');
+            const activeElement = document.activeElement;
+            const messageInputField = document.getElementById('message-input-field');
+			if (event.keyCode === 40 && messages.length !== 0 && messageInputField === activeElement) {
                 const visitorMessages = (messages.flatMap(message => message.author === "visitor" ? [message.text] : [])).reverse();
                 if(previousMessageIndex <= 0){
                     setMessage("");
@@ -35,16 +36,14 @@ const SendMessageForm = ({messages, sendMessage}) => {
                     const messageLength = visitorMessages[nextsMessageIndex].length
                     setMessage(visitorMessages[nextsMessageIndex]);
                     setPreviousMessageIndex(nextsMessageIndex)
-                    console.log('length of message: ', messageLength)
                     messageInputField.setSelectionRange(messageLength, messageLength);
-
                 }
 			}
 		};
         const handleUp = (event) => {
-
-			if (event.keyCode === 38 && messages.length !== 0) {
-                const messageInputField = document.getElementById('message-input-field');
+            const activeElement = document.activeElement;
+            const messageInputField = document.getElementById('message-input-field');
+			if (event.keyCode === 38 && messages.length !== 0 && messageInputField === activeElement) {
                 const visitorMessages = (messages.flatMap(message => message.author === "visitor" ? [message.text] : [])).reverse();
                 const lastMessageIndex = visitorMessages.length - 1
                 if(previousMessageIndex === lastMessageIndex){
@@ -65,7 +64,6 @@ const SendMessageForm = ({messages, sendMessage}) => {
 		return () => {
 			window.removeEventListener('keydown', handleDown);
             window.removeEventListener('keydown', handleUp);
-
     	};
 	}, [messages, previousMessageIndex]);
 

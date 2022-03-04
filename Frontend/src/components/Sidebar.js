@@ -5,6 +5,7 @@ import {ReactComponent as RefreshButton} from '../icons/refresh.svg';
 import {ReactComponent as LogOutButton} from '../icons/log-out.svg';
 
 const Sidebar = ({toggleSidebar, sidebarFunctions}) => {
+
     const {downloadChatLog, refreshChat, toggleDarkTheme, returnToMain} = sidebarFunctions
     const sidebarNavItems = [
         {
@@ -31,7 +32,6 @@ const Sidebar = ({toggleSidebar, sidebarFunctions}) => {
             section: '',
             function: () =>{}
         },
-
         {
             text: 'Return',
             identifier: "return-item",
@@ -40,7 +40,6 @@ const Sidebar = ({toggleSidebar, sidebarFunctions}) => {
             section: '',
             function: returnToMain
         },
-
     ]
 
     return <div className='sidebar'>

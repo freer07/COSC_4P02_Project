@@ -78,6 +78,18 @@ function App() {
 	}, []);
 
 	useEffect(() => {
+		const closeSidebar = (event) => {
+			if(activeSidebar && event.target.classList.contains('overlay')){
+				setactiveSidebar(false)
+			}
+		};
+    	window.addEventListener('click', closeSidebar);
+		return () => {
+			window.removeEventListener('click', closeSidebar);
+    	};
+	}, [activeSidebar]);
+
+	useEffect(() => {
 		var recentMessageElement = document.querySelector(".last-message");
 		if(typeof recentMessageElement !== undefined && recentMessageElement !== null ){
 			recentMessageElement.scrollIntoView();
