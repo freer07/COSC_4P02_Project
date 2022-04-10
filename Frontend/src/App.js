@@ -4,11 +4,11 @@ import Header from './components/Header/Header';
 import MessageList from './components/MessageList/MessageList';
 import SendMessageForm from './components/SendMessageForm/SendMessageForm';
 import Sidebar from './components/Sidebar/Sidebar';
+import cx from 'classnames';
 
 var localStorage = window.localStorage;
 
 function App() {
-
 	const [messages, setMessages] = useState(JSON.parse(localStorage.getItem('messages')) || []);
 	const [activeSidebar, setactiveSidebar] = useState(false);
 	const [darkTheme, setdarkTheme] = useState(JSON.parse(localStorage.getItem('darktheme')) || false);
@@ -48,7 +48,6 @@ function App() {
 	};
 
 	const refreshChat = () => {
-		console.log('refresh Chat Log');
 		if (window.confirm('Are you sure you want to clear the chat history?')) {
 			setMessages([]);
 			localStorage.setItem('messages', JSON.stringify([]));
@@ -57,7 +56,6 @@ function App() {
 	};
 
 	const toggleDarkTheme = () => {
-		console.log('darktheme');
 		localStorage.setItem('darktheme', JSON.stringify(!darkTheme));
 		setdarkTheme(!darkTheme);
 	};
@@ -79,18 +77,6 @@ function App() {
 	}, []);
 
 	useEffect(() => {
-		const closeSidebar = (event) => {
-			if (activeSidebar && event.target.classList.contains('overlay')) {
-				setactiveSidebar(false);
-			}
-		};
-		window.addEventListener('click', closeSidebar);
-		return () => {
-			window.removeEventListener('click', closeSidebar);
-		};
-	}, [activeSidebar]);
-
-	useEffect(() => {
 		var recentMessageElement = document.querySelector('.last-message');
 		if (typeof recentMessageElement !== 'undefined' && recentMessageElement !== null ) {
 			recentMessageElement.scrollIntoView();
@@ -100,11 +86,14 @@ function App() {
 		}
 	}, [messages]);
 
-	const appClassNames = (activeSidebar ? ' active-sidebar':'') + (darkTheme ? ' dark-theme':'');
 
 	return (
-		<div className={`app${appClassNames}`}>
-			<div className="overlay"></div>
+		<div className={cx('app', {
+			['active-sidebar']: activeSidebar,
+			['dark-theme']: darkTheme
+		})}>
+			<div role="button" tabIndex={0} className="overlay" onClick={() => {setactiveSidebar(false);}}
+				onKeyDown={() => {setactiveSidebar(false);}}></div>
 			<Sidebar darkTheme={darkTheme} toggleSidebar={toggleSidebar}
 				sidebarFunctions={{downloadChatLog, refreshChat, toggleDarkTheme, returnToMain}}/>
 			<Header toggleSidebar={toggleSidebar}/>

@@ -1,22 +1,28 @@
 import React from 'react';
 import propTypes from 'prop-types';
+import './MessageList.scss';
+import cx from 'classnames';
 
 function MessageList({ messages }) {
+
 	return (
 		<div className="message-list">
 			<ul>
-				{messages.map((message, index) => {
-					const authorClass = message.author === 'visitor' ? 'message visitor' : 'message chatbot';
-					return (
-						<li key={index} className={index + 1 === messages.length ?
-							authorClass + ' last-message' : authorClass
-						}>
-							<div className="inner-message">
-								<div className="message-text">{message.text}</div>
-							</div>
-						</li>
-					);
-				})}
+				{
+					messages.map((message, index) => {
+						return (
+							<li key={index} className={cx('message', {
+								['visitor']: message.author === 'visitor',
+								['chatbot']: message.author !== 'visitor',
+								['last-message']: index + 1 === messages.length
+							})}>
+								<div className="inner-message">
+									<div className="message-text">{message.text}</div>
+								</div>
+							</li>
+						);
+					})
+				}
 			</ul>
 		</div>
 	);

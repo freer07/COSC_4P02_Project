@@ -1,17 +1,15 @@
 import React from 'react';
-import './Sidebar.css';
-
+import './Sidebar.scss';
+import cx from 'classnames';
 import {
 	MenuButton,
 	DownloadButton,
 	RefreshButton,
 	LogOutButton
 } from '../../icons/icons.js';
-
 import propTypes from 'prop-types';
 
 function Sidebar({ darkTheme, toggleSidebar, sidebarFunctions }) {
-	console.log(darkTheme);
 	const {downloadChatLog, refreshChat, toggleDarkTheme, returnToMain} = sidebarFunctions;
 	const sidebarNavItems = [
 		{
@@ -33,8 +31,11 @@ function Sidebar({ darkTheme, toggleSidebar, sidebarFunctions }) {
 		{
 			text: 'Dark Theme',
 			identifier: 'dark-theme-item',
-			icon: <div className="switch"><input className={darkTheme ? 'is_checked' : ''}
-				type="checkbox" defaultChecked={darkTheme}/><div className={darkTheme ? 'is_checked' : ''}></div></div>,
+			icon: <div className="switch">
+				<input className={cx({['is_checked']: darkTheme})}
+					type="checkbox" defaultChecked={darkTheme}/>
+				<div className={cx({['is_checked']: darkTheme})}></div>
+			</div>,
 			to: '/',
 			section: '',
 			function: toggleDarkTheme
@@ -52,14 +53,15 @@ function Sidebar({ darkTheme, toggleSidebar, sidebarFunctions }) {
 	return <div className="sidebar">
 		<div className="sidebar-header">
 			<span className="menu-button"><MenuButton className="menu-icon"
-				onClick={() =>{toggleSidebar();}} width="40px" height="40px"/></span>
+				onClick={() =>{toggleSidebar();}} width="40px" height="40px"/>
+			</span>
 		</div>
 		<div className="sidebar-menu">
 			{
 				sidebarNavItems.map((menuItem, index) => (
 					<div role="button" tabIndex={0} key={index} onClick={() => {menuItem.function();}}
 						onKeyDown={() => {}}>
-						<div className={`sidebar-menu-item ${menuItem.identifier}`}>
+						<div className={cx('sidebar-menu-item', menuItem.identifier)}>
 							<div className="sidebar-menu-item-text">
 								{menuItem.text}
 							</div>

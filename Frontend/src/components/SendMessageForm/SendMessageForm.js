@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import propTypes from 'prop-types';
+import './SendMessageForm.scss';
 
 function SendMessageForm({ messages, sendMessage }) {
-
-	const [message, setMessage] = useState('""');
+	const [message, setMessage] = useState('');
 	const [previousMessageIndex, setPreviousMessageIndex] = useState(-1);
 
 	const handleOnChange = newMessage => {
@@ -81,7 +81,8 @@ function SendMessageForm({ messages, sendMessage }) {
 				onChange={e => handleOnChange(e.target.value)}
 				value={message}
 				placeholder="Send a message..."
-				type="text" />
+				type="text"
+				autoComplete="off"/>
 			<button className="submit-button" onClick={e => {handleSubmit(e);}}>Send</button>
 		</form>
 	);

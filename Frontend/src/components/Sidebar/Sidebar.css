@@ -38,7 +38,9 @@
 }
 
 .sidebar .menu-button {
+  height: 40px;
   justify-content: left;
+  margin-left: 10px;
 }
 
 .menu-button {

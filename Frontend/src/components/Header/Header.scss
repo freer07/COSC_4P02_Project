@@ -1,0 +1,56 @@
+:root {
+    --main-color: #cc0202;
+    --secondary-color: white;
+    --main-text-color: #3e5869;
+    --secondary-text-color: #b0c7d6;
+    --send-message-form: #f5f5f5;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+    color: var(--secondary-color);
+    background: var(--main-color);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    z-index: 5;
+
+    .menu-icon {
+        width: 100%;
+        vertical-align: middle;
+    }
+    
+    .menu-button {
+        margin-left: 10px;
+        z-index: 5;
+        cursor: pointer;
+    }
+    
+    .header-menu-icon {
+        left: 0;
+        position: absolute;
+    }
+
+    .title {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        font-size: 24px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}
+
+.app.dark-theme .header {
+    color: var(--secondary-color);
+    background: #690000;
+}

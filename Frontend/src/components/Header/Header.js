@@ -1,6 +1,7 @@
 import React from 'react';
 import { MenuButton } from '../../icons/icons.js';
 import propTypes from 'prop-types';
+import './Header.scss';
 
 function Header({ toggleSidebar }) {
 	return (
