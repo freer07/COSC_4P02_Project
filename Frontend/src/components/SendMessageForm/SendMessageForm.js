@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import propTypes from 'prop-types';
 import './SendMessageForm.scss';
+import { VISITOR_IDENTIFIER } from '../../constants/constants.js';
 
 function SendMessageForm({ messages, sendMessage }) {
 	const [message, setMessage] = useState('');
@@ -29,7 +30,7 @@ function SendMessageForm({ messages, sendMessage }) {
 			const messageInputField = document.getElementById('message-input-field');
 			if (event.keyCode === 40 && messages.length !== 0 && messageInputField === activeElement) {
 				const visitorMessages = (messages.flatMap(
-					previousMessage => previousMessage.author === 'visitor' ? [previousMessage.text] : [])
+					({author, text}) => author === VISITOR_IDENTIFIER ? [text] : [])
 				).reverse();
 				if (previousMessageIndex <= 0) {
 					setMessage('');
@@ -48,7 +49,7 @@ function SendMessageForm({ messages, sendMessage }) {
 			const messageInputField = document.getElementById('message-input-field');
 			if (event.keyCode === 38 && messages.length !== 0 && messageInputField === activeElement) {
 				const visitorMessages = (messages.flatMap(
-					previousMessage => previousMessage.author === 'visitor' ? [previousMessage.text] : []
+					({author, text}) => author === VISITOR_IDENTIFIER ? [text] : []
 				)).reverse();
 				const lastMessageIndex = visitorMessages.length - 1;
 				if (previousMessageIndex === lastMessageIndex) {

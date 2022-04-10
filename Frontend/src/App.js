@@ -5,6 +5,7 @@ import MessageList from './components/MessageList/MessageList';
 import SendMessageForm from './components/SendMessageForm/SendMessageForm';
 import Sidebar from './components/Sidebar/Sidebar';
 import cx from 'classnames';
+import { CHATBOT_IDENTIFIER, VISITOR_IDENTIFIER } from './constants/constants.js';
 
 var localStorage = window.localStorage;
 
@@ -14,15 +15,15 @@ function App() {
 	const [darkTheme, setdarkTheme] = useState(JSON.parse(localStorage.getItem('darktheme')) || false);
 
 	const sendMessage = (message) => {
-		let newMessages = [...messages, {author: 'visitor', text: message}];
+		let newMessages = [...messages, {author: VISITOR_IDENTIFIER, text: message}];
 		setMessages(newMessages);
 		const chatBotMessage = getChatBotResponse(message);
 		chatBotMessage.then(data => {
-			setMessages([...newMessages, {author: 'chatbot', text: data.responses[0].text}]);
+			setMessages([...newMessages, {author: CHATBOT_IDENTIFIER, text: data.responses[0].text}]);
 		})
 			.catch(function() {
 				console.error('failed to fetch bot response');
-				setMessages([...newMessages, {author: 'chatbot', text: 'Unable to reach the chatbot.'}]);
+				setMessages([...newMessages, {author: CHATBOT_IDENTIFIER, text: 'Unable to reach the chatbot.'}]);
 			});
 	};
 
