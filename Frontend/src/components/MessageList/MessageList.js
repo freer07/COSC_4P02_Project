@@ -1,10 +1,10 @@
 import React from 'react';
 import propTypes from 'prop-types';
 
-const MessageList = ({messages}) => {
+function MessageList({ messages }) {
 	return (
 		<div className="message-list">
-			<ul >
+			<ul>
 				{messages.map((message, index) => {
 					const authorClass = message.author === 'visitor' ? 'message visitor' : 'message chatbot';
 					return (
@@ -20,7 +20,7 @@ const MessageList = ({messages}) => {
 			</ul>
 		</div>
 	);
-};
+}
 
 MessageList.propTypes = {
 	messages: propTypes.array.isRequired

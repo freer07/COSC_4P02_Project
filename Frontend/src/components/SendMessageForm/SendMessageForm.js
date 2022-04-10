@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import propTypes from 'prop-types';
 
-const SendMessageForm = ({ messages, sendMessage }) => {
+function SendMessageForm({ messages, sendMessage }) {
 
 	const [message, setMessage] = useState('""');
 	const [previousMessageIndex, setPreviousMessageIndex] = useState(-1);
@@ -85,7 +85,7 @@ const SendMessageForm = ({ messages, sendMessage }) => {
 			<button className="submit-button" onClick={e => {handleSubmit(e);}}>Send</button>
 		</form>
 	);
-};
+}
 
 SendMessageForm.propTypes = {
 	messages: propTypes.array.isRequired,

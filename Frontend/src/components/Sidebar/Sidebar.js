@@ -1,15 +1,18 @@
 import React from 'react';
 import './Sidebar.css';
-import {ReactComponent as MenuButton} from '../icons/menu.svg';
-import {ReactComponent as DownloadButton} from '../icons/download.svg';
-import {ReactComponent as RefreshButton} from '../icons/refresh.svg';
-import {ReactComponent as LogOutButton} from '../icons/log-out.svg';
+
+import {
+	MenuButton,
+	DownloadButton,
+	RefreshButton,
+	LogOutButton
+} from '../../icons/icons.js';
+
 import propTypes from 'prop-types';
 
-const Sidebar = ({ toggleSidebar, sidebarFunctions }) => {
-
+function Sidebar({ darkTheme, toggleSidebar, sidebarFunctions }) {
+	console.log(darkTheme);
 	const {downloadChatLog, refreshChat, toggleDarkTheme, returnToMain} = sidebarFunctions;
-	console.log(toggleDarkTheme);
 	const sidebarNavItems = [
 		{
 			text: 'Chat Log',
@@ -30,10 +33,11 @@ const Sidebar = ({ toggleSidebar, sidebarFunctions }) => {
 		{
 			text: 'Dark Theme',
 			identifier: 'dark-theme-item',
-			icon: <div className="switch"><input type="checkbox" onChange={toggleDarkTheme}/><div></div></div>,
+			icon: <div className="switch"><input className={darkTheme ? 'is_checked' : ''}
+				type="checkbox" defaultChecked={darkTheme}/><div className={darkTheme ? 'is_checked' : ''}></div></div>,
 			to: '/',
 			section: '',
-			function: () =>{}
+			function: toggleDarkTheme
 		},
 		{
 			text: 'Return',
@@ -54,7 +58,7 @@ const Sidebar = ({ toggleSidebar, sidebarFunctions }) => {
 			{
 				sidebarNavItems.map((menuItem, index) => (
 					<div role="button" tabIndex={0} key={index} onClick={() => {menuItem.function();}}
-						onKeyDown={() => {menuItem.function();}}>
+						onKeyDown={() => {}}>
 						<div className={`sidebar-menu-item ${menuItem.identifier}`}>
 							<div className="sidebar-menu-item-text">
 								{menuItem.text}
@@ -68,9 +72,10 @@ const Sidebar = ({ toggleSidebar, sidebarFunctions }) => {
 			}
 		</div>
 	</div>;
-};
+}
 
 Sidebar.propTypes = {
+	darkTheme: propTypes.bool.isRequired,
 	toggleSidebar: propTypes.func.isRequired,
 	sidebarFunctions: propTypes.object.isRequired
 };
