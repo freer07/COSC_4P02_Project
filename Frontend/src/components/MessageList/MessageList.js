@@ -6,11 +6,30 @@ import { CHATBOT_IDENTIFIER, VISITOR_IDENTIFIER } from '../../constants/constant
 
 function MessageList({ messages }) {
 
+	const modifyMessageToHaveAnchor = (chatBotMessage) => {
+		let match = chatBotMessage.match(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#/%?=~_|!:,.;]*[-A-Z0-9+&@#/%=~_|])/ig);
+		if (match){
+			console.log(match);
+			let modifiedMessage = chatBotMessage;
+			match.map(url => {
+				modifiedMessage = <span>{modifiedMessage.replace(url,'')} <a href={url}
+					className="anchor-link">{url}</a></span>;
+			});
+			return modifiedMessage;
+		}
+
+		return chatBotMessage;
+	};
+	const test = <div>asdasd</div>;
+	console.log(test);
 	return (
 		<div className="message-list">
 			<ul>
 				{
 					messages.map(({author, text}, index) => {
+						let modifiedText = author === CHATBOT_IDENTIFIER
+							? modifyMessageToHaveAnchor(text)
+							:<span>{text}</span>;
 						return (
 							<li key={index} className={cx('message', {
 								[VISITOR_IDENTIFIER]: author === VISITOR_IDENTIFIER,
@@ -18,7 +37,7 @@ function MessageList({ messages }) {
 								['last-message']: index + 1 === messages.length
 							})}>
 								<div className="inner-message">
-									<div className="message-text">{text}</div>
+									<div className="message-text">{modifiedText}</div>
 								</div>
 							</li>
 						);

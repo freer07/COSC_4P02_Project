@@ -88,6 +88,14 @@
 
         .chatbot .inner-message {
             background-color: rgb(143 123 123);
+
+            .anchor-link:link {
+                color: rgb(211, 211, 255);
+            }
+
+            .anchor-link:visited {
+                color: rgb(161, 161, 254);
+            }
         }
     }
 
