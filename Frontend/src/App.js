@@ -19,7 +19,8 @@ function App() {
 		setMessages(newMessages);
 		const chatBotMessage = getChatBotResponse(message);
 		chatBotMessage.then(data => {
-			setMessages([...newMessages, {author: CHATBOT_IDENTIFIER, text: data.responses[0].text}]);
+			const newMessage = data.responses[0].text;
+			setMessages([...newMessages, {author: CHATBOT_IDENTIFIER, text: newMessage.trim()}]);
 		})
 			.catch(function() {
 				console.error('failed to fetch bot response');
