@@ -62,7 +62,7 @@ function App() {
 	};
 
 	const returnToMain = () => {
-		console.log('return to main');
+
 	};
 
 	useEffect(() => {
@@ -118,7 +118,7 @@ const getChatBotResponse = (visitorMessage) => {
 		body: JSON.stringify(data)
 	}).then(response => response.json())
 		.catch(function() {
-			console.log('Can\'t reach url, potential CORS issue');
+			console.error('Can\'t reach url, potential CORS issue');
 		});
 };
 

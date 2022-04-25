@@ -9,7 +9,6 @@ function MessageList({ messages }) {
 	const modifyMessageToHaveAnchor = (chatBotMessage) => {
 		let match = chatBotMessage.match(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#/%?=~_|!:,.;]*[-A-Z0-9+&@#/%=~_|])/ig);
 		if (match){
-			console.log(match);
 			let modifiedMessage = chatBotMessage;
 			match.map(url => {
 				modifiedMessage = <span>{modifiedMessage.replace(url,'')} <a href={url}
@@ -20,8 +19,6 @@ function MessageList({ messages }) {
 
 		return chatBotMessage;
 	};
-	const test = <div>asdasd</div>;
-	console.log(test);
 	return (
 		<div className="message-list">
 			<ul>
