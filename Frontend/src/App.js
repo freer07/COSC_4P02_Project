@@ -51,8 +51,8 @@ function App() {
 
 	const refreshChat = () => {
 		if (window.confirm('Are you sure you want to clear the chat history?')) {
-			setMessages([]);
-			localStorage.setItem('messages', JSON.stringify([]));
+			sendChatbotGreeting();
+			localStorage.setItem('messages', JSON.stringify(messages));
 			localStorage.setItem('conversationID', JSON.stringify(''));
 		}
 	};
@@ -66,7 +66,23 @@ function App() {
 
 	};
 
+	const sendChatbotGreeting = () => {
+		const chatBotMessage = getChatBotResponse('hello');
+		chatBotMessage.then(data => {
+			const newMessage = data.responses[0].text;
+			setMessages([{author: CHATBOT_IDENTIFIER, text: newMessage.trim()}]);
+		})
+			.catch(function() {
+				console.error('failed to fetch bot response');
+				setMessages([{author: CHATBOT_IDENTIFIER, text: 'Unable to reach the chatbot.'}]);
+			});
+	};
+
 	useEffect(() => {
+
+		if (!messages.length) {
+			sendChatbotGreeting();
+		}
 		const handleEsc = (event) => {
 			if (event.keyCode === 27) {
 				setactiveSidebar(false);
